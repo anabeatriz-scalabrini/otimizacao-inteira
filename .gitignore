@@ -1,8 +1,33 @@
+# Byte-compiled / otimizados pelo Python
 __pycache__/
 *.py[cod]
 *$py.class
+
+# Ambientes virtuais (muito importante se usar venv/conda)
+.venv/
+venv/
+ENV/
+env/
+
+# IDEs e editores
 .vscode/
 .idea/
 *.swp
 *.swo
+
+# Arquivos do sistema (Windows / macOS)
 .DS_Store
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+
+# Variáveis de ambiente e segredos
+.env
+
+# Logs e saídas típicas de Solvers de Otimização (Gurobi, CPLEX, etc.)
+*.log
+gurobi.log
+*.sol
+*.lp
+*.mps
+*.ilp
