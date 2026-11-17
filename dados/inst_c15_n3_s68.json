@@ -1,0 +1,4835 @@
+{
+  "nome": "inst_c15_n3_s68",
+  "versao_gerador": "1.0",
+  "semente": 68,
+  "parametros": {
+    "cargas": 15,
+    "navios": 3,
+    "gama_max_garantido": 3,
+    "frac_atraso": 0.3,
+    "prob_incompat": 0.1,
+    "unidades": {
+      "distancia": "milhas nauticas",
+      "velocidade": "nos",
+      "tempo": "dias",
+      "custo": "kUSD"
+    }
+  },
+  "portos": [
+    {
+      "id": 0,
+      "nome": "P00",
+      "tipo": "coleta",
+      "x": 4450.0,
+      "y": 2822.4,
+      "fator_atraso": 1.25
+    },
+    {
+      "id": 1,
+      "nome": "P01",
+      "tipo": "coleta",
+      "x": 5448.9,
+      "y": 332.9,
+      "fator_atraso": 1.08
+    },
+    {
+      "id": 2,
+      "nome": "P02",
+      "tipo": "coleta",
+      "x": 2591.2,
+      "y": 796.5,
+      "fator_atraso": 1.36
+    },
+    {
+      "id": 3,
+      "nome": "P03",
+      "tipo": "coleta",
+      "x": 1976.4,
+      "y": 2921.0,
+      "fator_atraso": 0.86
+    },
+    {
+      "id": 4,
+      "nome": "P04",
+      "tipo": "coleta",
+      "x": 3321.7,
+      "y": 2322.7,
+      "fator_atraso": 1.28
+    },
+    {
+      "id": 5,
+      "nome": "P05",
+      "tipo": "coleta",
+      "x": 250.7,
+      "y": 2200.6,
+      "fator_atraso": 0.61
+    },
+    {
+      "id": 6,
+      "nome": "P06",
+      "tipo": "coleta",
+      "x": 2054.7,
+      "y": 280.2,
+      "fator_atraso": 1.11
+    },
+    {
+      "id": 7,
+      "nome": "P07",
+      "tipo": "coleta",
+      "x": 1170.8,
+      "y": 575.8,
+      "fator_atraso": 1.03
+    },
+    {
+      "id": 8,
+      "nome": "P08",
+      "tipo": "coleta",
+      "x": 2544.4,
+      "y": 1607.5,
+      "fator_atraso": 1.02
+    },
+    {
+      "id": 9,
+      "nome": "P09",
+      "tipo": "entrega",
+      "x": 4207.3,
+      "y": 2694.5,
+      "fator_atraso": 1.47
+    },
+    {
+      "id": 10,
+      "nome": "P10",
+      "tipo": "entrega",
+      "x": 3536.3,
+      "y": 1877.7,
+      "fator_atraso": 1.09
+    },
+    {
+      "id": 11,
+      "nome": "P11",
+      "tipo": "entrega",
+      "x": 2075.9,
+      "y": 2349.2,
+      "fator_atraso": 0.62
+    },
+    {
+      "id": 12,
+      "nome": "P12",
+      "tipo": "entrega",
+      "x": 5634.3,
+      "y": 1432.0,
+      "fator_atraso": 1.25
+    },
+    {
+      "id": 13,
+      "nome": "P13",
+      "tipo": "entrega",
+      "x": 4158.9,
+      "y": 240.2,
+      "fator_atraso": 0.92
+    },
+    {
+      "id": 14,
+      "nome": "P14",
+      "tipo": "entrega",
+      "x": 2302.0,
+      "y": 367.2,
+      "fator_atraso": 1.24
+    },
+    {
+      "id": 15,
+      "nome": "P15",
+      "tipo": "entrega",
+      "x": 2502.0,
+      "y": 1981.6,
+      "fator_atraso": 0.54
+    },
+    {
+      "id": 16,
+      "nome": "P16",
+      "tipo": "entrega",
+      "x": 5627.2,
+      "y": 1232.4,
+      "fator_atraso": 1.33
+    },
+    {
+      "id": 17,
+      "nome": "P17",
+      "tipo": "entrega",
+      "x": 4579.3,
+      "y": 273.0,
+      "fator_atraso": 1.25
+    }
+  ],
+  "navios": [
+    {
+      "id": 0,
+      "nome": "N1",
+      "velocidade_nos": 18.0,
+      "custo_dia_kusd": 28.97,
+      "porto_inicial": 13
+    },
+    {
+      "id": 1,
+      "nome": "N2",
+      "velocidade_nos": 19.1,
+      "custo_dia_kusd": 31.65,
+      "porto_inicial": 12
+    },
+    {
+      "id": 2,
+      "nome": "N3",
+      "velocidade_nos": 16.4,
+      "custo_dia_kusd": 24.1,
+      "porto_inicial": 17
+    }
+  ],
+  "cargas": [
+    {
+      "id": 1,
+      "porto_coleta": 8,
+      "porto_entrega": 16,
+      "servico_coleta_dias": 1.07,
+      "servico_entrega_dias": 1.45,
+      "janela_inicio": 70.296,
+      "janela_fim": 86.974,
+      "navios_compativeis": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": 2,
+      "porto_coleta": 0,
+      "porto_entrega": 9,
+      "servico_coleta_dias": 1.5,
+      "servico_entrega_dias": 1.67,
+      "janela_inicio": 38.078,
+      "janela_fim": 53.477,
+      "navios_compativeis": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": 3,
+      "porto_coleta": 7,
+      "porto_entrega": 12,
+      "servico_coleta_dias": 1.36,
+      "servico_entrega_dias": 0.88,
+      "janela_inicio": 41.429,
+      "janela_fim": 54.364,
+      "navios_compativeis": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": 4,
+      "porto_coleta": 3,
+      "porto_entrega": 14,
+      "servico_coleta_dias": 1.21,
+      "servico_entrega_dias": 0.95,
+      "janela_inicio": 67.244,
+      "janela_fim": 84.512,
+      "navios_compativeis": [
+        2
+      ]
+    },
+    {
+      "id": 5,
+      "porto_coleta": 1,
+      "porto_entrega": 10,
+      "servico_coleta_dias": 0.6,
+      "servico_entrega_dias": 0.92,
+      "janela_inicio": 16.123,
+      "janela_fim": 23.477,
+      "navios_compativeis": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": 6,
+      "porto_coleta": 2,
+      "porto_entrega": 14,
+      "servico_coleta_dias": 0.54,
+      "servico_entrega_dias": 0.7,
+      "janela_inicio": 16.38,
+      "janela_fim": 27.699,
+      "navios_compativeis": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": 7,
+      "porto_coleta": 7,
+      "porto_entrega": 15,
+      "servico_coleta_dias": 1.9,
+      "servico_entrega_dias": 1.82,
+      "janela_inicio": 8.112,
+      "janela_fim": 12.092,
+      "navios_compativeis": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": 8,
+      "porto_coleta": 5,
+      "porto_entrega": 14,
+      "servico_coleta_dias": 0.66,
+      "servico_entrega_dias": 0.88,
+      "janela_inicio": 20.82,
+      "janela_fim": 33.967,
+      "navios_compativeis": [
+        0,
+        2
+      ]
+    },
+    {
+      "id": 9,
+      "porto_coleta": 6,
+      "porto_entrega": 14,
+      "servico_coleta_dias": 0.61,
+      "servico_entrega_dias": 1.62,
+      "janela_inicio": 3.88,
+      "janela_fim": 11.79,
+      "navios_compativeis": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": 10,
+      "porto_coleta": 3,
+      "porto_entrega": 15,
+      "servico_coleta_dias": 1.0,
+      "servico_entrega_dias": 1.52,
+      "janela_inicio": 48.504,
+      "janela_fim": 63.385,
+      "navios_compativeis": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": 11,
+      "porto_coleta": 6,
+      "porto_entrega": 16,
+      "servico_coleta_dias": 1.56,
+      "servico_entrega_dias": 1.35,
+      "janela_inicio": 42.075,
+      "janela_fim": 58.2,
+      "navios_compativeis": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": 12,
+      "porto_coleta": 5,
+      "porto_entrega": 15,
+      "servico_coleta_dias": 1.53,
+      "servico_entrega_dias": 1.94,
+      "janela_inicio": 27.451,
+      "janela_fim": 43.489,
+      "navios_compativeis": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": 13,
+      "porto_coleta": 4,
+      "porto_entrega": 16,
+      "servico_coleta_dias": 0.52,
+      "servico_entrega_dias": 0.87,
+      "janela_inicio": 24.348,
+      "janela_fim": 37.75,
+      "navios_compativeis": [
+        2
+      ]
+    },
+    {
+      "id": 14,
+      "porto_coleta": 4,
+      "porto_entrega": 14,
+      "servico_coleta_dias": 0.92,
+      "servico_entrega_dias": 1.59,
+      "janela_inicio": 60.265,
+      "janela_fim": 77.033,
+      "navios_compativeis": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": 15,
+      "porto_coleta": 3,
+      "porto_entrega": 9,
+      "servico_coleta_dias": 1.34,
+      "servico_entrega_dias": 1.87,
+      "janela_inicio": 5.146,
+      "janela_fim": 12.696,
+      "navios_compativeis": [
+        0,
+        1,
+        2
+      ]
+    }
+  ],
+  "arcos": [
+    {
+      "navio": 0,
+      "de": "o",
+      "para": "d",
+      "custo": 0.0,
+      "t_barra": 0.0,
+      "t_chapeu": 0.0
+    },
+    {
+      "navio": 0,
+      "de": "o",
+      "para": 1,
+      "custo": 141.878,
+      "t_barra": 4.897,
+      "t_chapeu": 1.425
+    },
+    {
+      "navio": 0,
+      "de": "o",
+      "para": 2,
+      "custo": 174.26,
+      "t_barra": 6.015,
+      "t_chapeu": 1.958
+    },
+    {
+      "navio": 0,
+      "de": "o",
+      "para": 3,
+      "custo": 201.642,
+      "t_barra": 6.96,
+      "t_chapeu": 2.036
+    },
+    {
+      "navio": 0,
+      "de": "o",
+      "para": 5,
+      "custo": 86.731,
+      "t_barra": 2.994,
+      "t_chapeu": 0.898
+    },
+    {
+      "navio": 0,
+      "de": "o",
+      "para": 6,
+      "custo": 111.553,
+      "t_barra": 3.851,
+      "t_chapeu": 1.317
+    },
+    {
+      "navio": 0,
+      "de": "o",
+      "para": 7,
+      "custo": 201.642,
+      "t_barra": 6.96,
+      "t_chapeu": 2.036
+    },
+    {
+      "navio": 0,
+      "de": "o",
+      "para": 8,
+      "custo": 293.209,
+      "t_barra": 10.121,
+      "t_chapeu": 2.323
+    },
+    {
+      "navio": 0,
+      "de": "o",
+      "para": 9,
+      "custo": 141.134,
+      "t_barra": 4.872,
+      "t_chapeu": 1.483
+    },
+    {
+      "navio": 0,
+      "de": "o",
+      "para": 10,
+      "custo": 231.819,
+      "t_barra": 8.002,
+      "t_chapeu": 2.137
+    },
+    {
+      "navio": 0,
+      "de": "o",
+      "para": 11,
+      "custo": 141.134,
+      "t_barra": 4.872,
+      "t_chapeu": 1.483
+    },
+    {
+      "navio": 0,
+      "de": "o",
+      "para": 12,
+      "custo": 293.209,
+      "t_barra": 10.121,
+      "t_chapeu": 2.323
+    },
+    {
+      "navio": 0,
+      "de": "o",
+      "para": 14,
+      "custo": 150.516,
+      "t_barra": 5.196,
+      "t_chapeu": 1.715
+    },
+    {
+      "navio": 0,
+      "de": "o",
+      "para": 15,
+      "custo": 231.819,
+      "t_barra": 8.002,
+      "t_chapeu": 2.137
+    },
+    {
+      "navio": 0,
+      "de": 1,
+      "para": "d",
+      "custo": 281.262,
+      "t_barra": 9.709,
+      "t_chapeu": 2.534
+    },
+    {
+      "navio": 0,
+      "de": 1,
+      "para": 2,
+      "custo": 413.931,
+      "t_barra": 14.288,
+      "t_chapeu": 4.351
+    },
+    {
+      "navio": 0,
+      "de": 1,
+      "para": 3,
+      "custo": 583.336,
+      "t_barra": 20.136,
+      "t_chapeu": 6.223
+    },
+    {
+      "navio": 0,
+      "de": 1,
+      "para": 5,
+      "custo": 342.757,
+      "t_barra": 11.831,
+      "t_chapeu": 3.324
+    },
+    {
+      "navio": 0,
+      "de": 1,
+      "para": 6,
+      "custo": 486.945,
+      "t_barra": 16.809,
+      "t_chapeu": 5.401
+    },
+    {
+      "navio": 0,
+      "de": 1,
+      "para": 7,
+      "custo": 583.336,
+      "t_barra": 20.136,
+      "t_chapeu": 6.223
+    },
+    {
+      "navio": 0,
+      "de": 1,
+      "para": 8,
+      "custo": 647.611,
+      "t_barra": 22.355,
+      "t_chapeu": 6.382
+    },
+    {
+      "navio": 0,
+      "de": 1,
+      "para": 9,
+      "custo": 529.199,
+      "t_barra": 18.267,
+      "t_chapeu": 5.657
+    },
+    {
+      "navio": 0,
+      "de": 1,
+      "para": 10,
+      "custo": 551.005,
+      "t_barra": 19.02,
+      "t_chapeu": 5.618
+    },
+    {
+      "navio": 0,
+      "de": 1,
+      "para": 11,
+      "custo": 529.199,
+      "t_barra": 18.267,
+      "t_chapeu": 5.657
+    },
+    {
+      "navio": 0,
+      "de": 1,
+      "para": 12,
+      "custo": 647.611,
+      "t_barra": 22.355,
+      "t_chapeu": 6.382
+    },
+    {
+      "navio": 0,
+      "de": 1,
+      "para": 14,
+      "custo": 452.287,
+      "t_barra": 15.612,
+      "t_chapeu": 4.87
+    },
+    {
+      "navio": 0,
+      "de": 1,
+      "para": 15,
+      "custo": 551.005,
+      "t_barra": 19.02,
+      "t_chapeu": 5.618
+    },
+    {
+      "navio": 0,
+      "de": 2,
+      "para": "d",
+      "custo": 110.232,
+      "t_barra": 3.805,
+      "t_chapeu": 0.259
+    },
+    {
+      "navio": 0,
+      "de": 2,
+      "para": 1,
+      "custo": 243.458,
+      "t_barra": 8.404,
+      "t_chapeu": 2.045
+    },
+    {
+      "navio": 0,
+      "de": 2,
+      "para": 3,
+      "custo": 358.529,
+      "t_barra": 12.376,
+      "t_chapeu": 3.604
+    },
+    {
+      "navio": 0,
+      "de": 2,
+      "para": 5,
+      "custo": 289.155,
+      "t_barra": 9.981,
+      "t_chapeu": 2.692
+    },
+    {
+      "navio": 0,
+      "de": 2,
+      "para": 6,
+      "custo": 277.401,
+      "t_barra": 9.575,
+      "t_chapeu": 2.666
+    },
+    {
+      "navio": 0,
+      "de": 2,
+      "para": 7,
+      "custo": 358.529,
+      "t_barra": 12.376,
+      "t_chapeu": 3.604
+    },
+    {
+      "navio": 0,
+      "de": 2,
+      "para": 8,
+      "custo": 377.622,
+      "t_barra": 13.035,
+      "t_chapeu": 3.551
+    },
+    {
+      "navio": 0,
+      "de": 2,
+      "para": 9,
+      "custo": 327.144,
+      "t_barra": 11.293,
+      "t_chapeu": 3.229
+    },
+    {
+      "navio": 0,
+      "de": 2,
+      "para": 10,
+      "custo": 260.606,
+      "t_barra": 8.996,
+      "t_chapeu": 2.206
+    },
+    {
+      "navio": 0,
+      "de": 2,
+      "para": 11,
+      "custo": 327.144,
+      "t_barra": 11.293,
+      "t_chapeu": 3.229
+    },
+    {
+      "navio": 0,
+      "de": 2,
+      "para": 12,
+      "custo": 377.622,
+      "t_barra": 13.035,
+      "t_chapeu": 3.551
+    },
+    {
+      "navio": 0,
+      "de": 2,
+      "para": 14,
+      "custo": 174.642,
+      "t_barra": 6.028,
+      "t_chapeu": 1.173
+    },
+    {
+      "navio": 0,
+      "de": 2,
+      "para": 15,
+      "custo": 260.606,
+      "t_barra": 8.996,
+      "t_chapeu": 2.206
+    },
+    {
+      "navio": 0,
+      "de": 3,
+      "para": "d",
+      "custo": 369.673,
+      "t_barra": 12.761,
+      "t_chapeu": 3.598
+    },
+    {
+      "navio": 0,
+      "de": 3,
+      "para": 1,
+      "custo": 577.216,
+      "t_barra": 19.925,
+      "t_chapeu": 6.035
+    },
+    {
+      "navio": 0,
+      "de": 3,
+      "para": 2,
+      "custo": 492.153,
+      "t_barra": 16.988,
+      "t_chapeu": 5.287
+    },
+    {
+      "navio": 0,
+      "de": 3,
+      "para": 5,
+      "custo": 444.42,
+      "t_barra": 15.341,
+      "t_chapeu": 4.53
+    },
+    {
+      "navio": 0,
+      "de": 3,
+      "para": 6,
+      "custo": 578.146,
+      "t_barra": 19.957,
+      "t_chapeu": 6.498
+    },
+    {
+      "navio": 0,
+      "de": 3,
+      "para": 7,
+      "custo": 674.453,
+      "t_barra": 23.281,
+      "t_chapeu": 7.196
+    },
+    {
+      "navio": 0,
+      "de": 3,
+      "para": 8,
+      "custo": 734.359,
+      "t_barra": 25.349,
+      "t_chapeu": 7.175
+    },
+    {
+      "navio": 0,
+      "de": 3,
+      "para": 9,
+      "custo": 621.842,
+      "t_barra": 21.465,
+      "t_chapeu": 6.69
+    },
+    {
+      "navio": 0,
+      "de": 3,
+      "para": 10,
+      "custo": 634.517,
+      "t_barra": 21.903,
+      "t_chapeu": 6.474
+    },
+    {
+      "navio": 0,
+      "de": 3,
+      "para": 11,
+      "custo": 621.842,
+      "t_barra": 21.465,
+      "t_chapeu": 6.69
+    },
+    {
+      "navio": 0,
+      "de": 3,
+      "para": 12,
+      "custo": 734.359,
+      "t_barra": 25.349,
+      "t_chapeu": 7.175
+    },
+    {
+      "navio": 0,
+      "de": 3,
+      "para": 14,
+      "custo": 535.862,
+      "t_barra": 18.497,
+      "t_chapeu": 5.865
+    },
+    {
+      "navio": 0,
+      "de": 3,
+      "para": 15,
+      "custo": 634.517,
+      "t_barra": 21.903,
+      "t_chapeu": 6.474
+    },
+    {
+      "navio": 0,
+      "de": 5,
+      "para": "d",
+      "custo": 208.905,
+      "t_barra": 7.211,
+      "t_chapeu": 1.852
+    },
+    {
+      "navio": 0,
+      "de": 5,
+      "para": 1,
+      "custo": 277.846,
+      "t_barra": 9.591,
+      "t_chapeu": 2.591
+    },
+    {
+      "navio": 0,
+      "de": 5,
+      "para": 2,
+      "custo": 297.04,
+      "t_barra": 10.253,
+      "t_chapeu": 2.954
+    },
+    {
+      "navio": 0,
+      "de": 5,
+      "para": 3,
+      "custo": 389.974,
+      "t_barra": 13.461,
+      "t_chapeu": 3.842
+    },
+    {
+      "navio": 0,
+      "de": 5,
+      "para": 6,
+      "custo": 305.206,
+      "t_barra": 10.535,
+      "t_chapeu": 3.124
+    },
+    {
+      "navio": 0,
+      "de": 5,
+      "para": 7,
+      "custo": 389.974,
+      "t_barra": 13.461,
+      "t_chapeu": 3.842
+    },
+    {
+      "navio": 0,
+      "de": 5,
+      "para": 8,
+      "custo": 430.299,
+      "t_barra": 14.853,
+      "t_chapeu": 3.87
+    },
+    {
+      "navio": 0,
+      "de": 5,
+      "para": 9,
+      "custo": 355.015,
+      "t_barra": 12.255,
+      "t_chapeu": 3.518
+    },
+    {
+      "navio": 0,
+      "de": 5,
+      "para": 10,
+      "custo": 334.752,
+      "t_barra": 11.555,
+      "t_chapeu": 3.101
+    },
+    {
+      "navio": 0,
+      "de": 5,
+      "para": 11,
+      "custo": 355.015,
+      "t_barra": 12.255,
+      "t_chapeu": 3.518
+    },
+    {
+      "navio": 0,
+      "de": 5,
+      "para": 12,
+      "custo": 430.299,
+      "t_barra": 14.853,
+      "t_chapeu": 3.87
+    },
+    {
+      "navio": 0,
+      "de": 5,
+      "para": 14,
+      "custo": 242.036,
+      "t_barra": 8.355,
+      "t_chapeu": 2.327
+    },
+    {
+      "navio": 0,
+      "de": 5,
+      "para": 15,
+      "custo": 334.752,
+      "t_barra": 11.555,
+      "t_chapeu": 3.101
+    },
+    {
+      "navio": 0,
+      "de": 6,
+      "para": "d",
+      "custo": 70.635,
+      "t_barra": 2.438,
+      "t_chapeu": 0.467
+    },
+    {
+      "navio": 0,
+      "de": 6,
+      "para": 1,
+      "custo": 155.383,
+      "t_barra": 5.364,
+      "t_chapeu": 1.503
+    },
+    {
+      "navio": 0,
+      "de": 6,
+      "para": 2,
+      "custo": 289.398,
+      "t_barra": 9.99,
+      "t_chapeu": 3.34
+    },
+    {
+      "navio": 0,
+      "de": 6,
+      "para": 3,
+      "custo": 147.772,
+      "t_barra": 5.101,
+      "t_chapeu": 1.41
+    },
+    {
+      "navio": 0,
+      "de": 6,
+      "para": 5,
+      "custo": 281.679,
+      "t_barra": 9.723,
+      "t_chapeu": 3.13
+    },
+    {
+      "navio": 0,
+      "de": 6,
+      "para": 7,
+      "custo": 147.772,
+      "t_barra": 5.101,
+      "t_chapeu": 1.41
+    },
+    {
+      "navio": 0,
+      "de": 6,
+      "para": 8,
+      "custo": 255.132,
+      "t_barra": 8.807,
+      "t_chapeu": 2.525
+    },
+    {
+      "navio": 0,
+      "de": 6,
+      "para": 9,
+      "custo": 88.215,
+      "t_barra": 3.045,
+      "t_chapeu": 0.67
+    },
+    {
+      "navio": 0,
+      "de": 6,
+      "para": 10,
+      "custo": 243.279,
+      "t_barra": 8.398,
+      "t_chapeu": 2.523
+    },
+    {
+      "navio": 0,
+      "de": 6,
+      "para": 11,
+      "custo": 88.215,
+      "t_barra": 3.045,
+      "t_chapeu": 0.67
+    },
+    {
+      "navio": 0,
+      "de": 6,
+      "para": 12,
+      "custo": 255.132,
+      "t_barra": 8.807,
+      "t_chapeu": 2.525
+    },
+    {
+      "navio": 0,
+      "de": 6,
+      "para": 14,
+      "custo": 218.529,
+      "t_barra": 7.543,
+      "t_chapeu": 2.42
+    },
+    {
+      "navio": 0,
+      "de": 6,
+      "para": 15,
+      "custo": 243.279,
+      "t_barra": 8.398,
+      "t_chapeu": 2.523
+    },
+    {
+      "navio": 0,
+      "de": 7,
+      "para": "d",
+      "custo": 237.602,
+      "t_barra": 8.202,
+      "t_chapeu": 1.055
+    },
+    {
+      "navio": 0,
+      "de": 7,
+      "para": 1,
+      "custo": 262.849,
+      "t_barra": 9.073,
+      "t_chapeu": 1.257
+    },
+    {
+      "navio": 0,
+      "de": 7,
+      "para": 2,
+      "custo": 379.884,
+      "t_barra": 13.113,
+      "t_chapeu": 2.367
+    },
+    {
+      "navio": 0,
+      "de": 7,
+      "para": 3,
+      "custo": 367.435,
+      "t_barra": 12.683,
+      "t_chapeu": 2.111
+    },
+    {
+      "navio": 0,
+      "de": 7,
+      "para": 5,
+      "custo": 464.047,
+      "t_barra": 16.018,
+      "t_chapeu": 2.942
+    },
+    {
+      "navio": 0,
+      "de": 7,
+      "para": 6,
+      "custo": 317.299,
+      "t_barra": 10.953,
+      "t_chapeu": 1.882
+    },
+    {
+      "navio": 0,
+      "de": 7,
+      "para": 8,
+      "custo": 389.287,
+      "t_barra": 13.438,
+      "t_chapeu": 1.982
+    },
+    {
+      "navio": 0,
+      "de": 7,
+      "para": 9,
+      "custo": 355.575,
+      "t_barra": 12.274,
+      "t_chapeu": 2.066
+    },
+    {
+      "navio": 0,
+      "de": 7,
+      "para": 10,
+      "custo": 309.788,
+      "t_barra": 10.693,
+      "t_chapeu": 1.553
+    },
+    {
+      "navio": 0,
+      "de": 7,
+      "para": 11,
+      "custo": 355.575,
+      "t_barra": 12.274,
+      "t_chapeu": 2.066
+    },
+    {
+      "navio": 0,
+      "de": 7,
+      "para": 12,
+      "custo": 389.287,
+      "t_barra": 13.438,
+      "t_chapeu": 1.982
+    },
+    {
+      "navio": 0,
+      "de": 7,
+      "para": 14,
+      "custo": 297.14,
+      "t_barra": 10.257,
+      "t_chapeu": 1.662
+    },
+    {
+      "navio": 0,
+      "de": 7,
+      "para": 15,
+      "custo": 309.788,
+      "t_barra": 10.693,
+      "t_chapeu": 1.553
+    },
+    {
+      "navio": 0,
+      "de": 8,
+      "para": "d",
+      "custo": 229.111,
+      "t_barra": 7.909,
+      "t_chapeu": 1.767
+    },
+    {
+      "navio": 0,
+      "de": 8,
+      "para": 1,
+      "custo": 313.859,
+      "t_barra": 10.834,
+      "t_chapeu": 2.865
+    },
+    {
+      "navio": 0,
+      "de": 8,
+      "para": 2,
+      "custo": 447.874,
+      "t_barra": 15.46,
+      "t_chapeu": 4.531
+    },
+    {
+      "navio": 0,
+      "de": 8,
+      "para": 3,
+      "custo": 306.248,
+      "t_barra": 10.571,
+      "t_chapeu": 2.791
+    },
+    {
+      "navio": 0,
+      "de": 8,
+      "para": 5,
+      "custo": 440.155,
+      "t_barra": 15.193,
+      "t_chapeu": 4.27
+    },
+    {
+      "navio": 0,
+      "de": 8,
+      "para": 6,
+      "custo": 263.823,
+      "t_barra": 9.107,
+      "t_chapeu": 2.525
+    },
+    {
+      "navio": 0,
+      "de": 8,
+      "para": 7,
+      "custo": 306.248,
+      "t_barra": 10.571,
+      "t_chapeu": 2.791
+    },
+    {
+      "navio": 0,
+      "de": 8,
+      "para": 9,
+      "custo": 246.691,
+      "t_barra": 8.515,
+      "t_chapeu": 2.197
+    },
+    {
+      "navio": 0,
+      "de": 8,
+      "para": 10,
+      "custo": 401.755,
+      "t_barra": 13.868,
+      "t_chapeu": 3.652
+    },
+    {
+      "navio": 0,
+      "de": 8,
+      "para": 11,
+      "custo": 246.691,
+      "t_barra": 8.515,
+      "t_chapeu": 2.197
+    },
+    {
+      "navio": 0,
+      "de": 8,
+      "para": 12,
+      "custo": 413.608,
+      "t_barra": 14.277,
+      "t_chapeu": 3.535
+    },
+    {
+      "navio": 0,
+      "de": 8,
+      "para": 14,
+      "custo": 377.005,
+      "t_barra": 13.014,
+      "t_chapeu": 3.76
+    },
+    {
+      "navio": 0,
+      "de": 8,
+      "para": 15,
+      "custo": 401.755,
+      "t_barra": 13.868,
+      "t_chapeu": 3.652
+    },
+    {
+      "navio": 0,
+      "de": 9,
+      "para": "d",
+      "custo": 82.183,
+      "t_barra": 2.837,
+      "t_chapeu": 0.214
+    },
+    {
+      "navio": 0,
+      "de": 9,
+      "para": 1,
+      "custo": 166.932,
+      "t_barra": 5.762,
+      "t_chapeu": 1.221
+    },
+    {
+      "navio": 0,
+      "de": 9,
+      "para": 2,
+      "custo": 300.947,
+      "t_barra": 10.388,
+      "t_chapeu": 2.961
+    },
+    {
+      "navio": 0,
+      "de": 9,
+      "para": 3,
+      "custo": 159.321,
+      "t_barra": 5.5,
+      "t_chapeu": 1.133
+    },
+    {
+      "navio": 0,
+      "de": 9,
+      "para": 5,
+      "custo": 293.228,
+      "t_barra": 10.122,
+      "t_chapeu": 2.764
+    },
+    {
+      "navio": 0,
+      "de": 9,
+      "para": 6,
+      "custo": 116.895,
+      "t_barra": 4.035,
+      "t_chapeu": 0.67
+    },
+    {
+      "navio": 0,
+      "de": 9,
+      "para": 7,
+      "custo": 159.321,
+      "t_barra": 5.5,
+      "t_chapeu": 1.133
+    },
+    {
+      "navio": 0,
+      "de": 9,
+      "para": 8,
+      "custo": 266.68,
+      "t_barra": 9.205,
+      "t_chapeu": 2.197
+    },
+    {
+      "navio": 0,
+      "de": 9,
+      "para": 10,
+      "custo": 254.828,
+      "t_barra": 8.796,
+      "t_chapeu": 2.191
+    },
+    {
+      "navio": 0,
+      "de": 9,
+      "para": 11,
+      "custo": 99.764,
+      "t_barra": 3.444,
+      "t_chapeu": 0.428
+    },
+    {
+      "navio": 0,
+      "de": 9,
+      "para": 12,
+      "custo": 266.68,
+      "t_barra": 9.205,
+      "t_chapeu": 2.197
+    },
+    {
+      "navio": 0,
+      "de": 9,
+      "para": 14,
+      "custo": 230.078,
+      "t_barra": 7.942,
+      "t_chapeu": 2.086
+    },
+    {
+      "navio": 0,
+      "de": 9,
+      "para": 15,
+      "custo": 254.828,
+      "t_barra": 8.796,
+      "t_chapeu": 2.191
+    },
+    {
+      "navio": 0,
+      "de": 10,
+      "para": "d",
+      "custo": 145.191,
+      "t_barra": 5.012,
+      "t_chapeu": 0.523
+    },
+    {
+      "navio": 0,
+      "de": 10,
+      "para": 1,
+      "custo": 170.439,
+      "t_barra": 5.883,
+      "t_chapeu": 0.747
+    },
+    {
+      "navio": 0,
+      "de": 10,
+      "para": 2,
+      "custo": 287.473,
+      "t_barra": 9.923,
+      "t_chapeu": 1.771
+    },
+    {
+      "navio": 0,
+      "de": 10,
+      "para": 3,
+      "custo": 275.024,
+      "t_barra": 9.493,
+      "t_chapeu": 1.553
+    },
+    {
+      "navio": 0,
+      "de": 10,
+      "para": 5,
+      "custo": 371.636,
+      "t_barra": 12.828,
+      "t_chapeu": 2.335
+    },
+    {
+      "navio": 0,
+      "de": 10,
+      "para": 6,
+      "custo": 224.889,
+      "t_barra": 7.763,
+      "t_chapeu": 1.298
+    },
+    {
+      "navio": 0,
+      "de": 10,
+      "para": 7,
+      "custo": 275.024,
+      "t_barra": 9.493,
+      "t_chapeu": 1.553
+    },
+    {
+      "navio": 0,
+      "de": 10,
+      "para": 8,
+      "custo": 296.876,
+      "t_barra": 10.248,
+      "t_chapeu": 1.478
+    },
+    {
+      "navio": 0,
+      "de": 10,
+      "para": 9,
+      "custo": 263.164,
+      "t_barra": 9.084,
+      "t_chapeu": 1.502
+    },
+    {
+      "navio": 0,
+      "de": 10,
+      "para": 11,
+      "custo": 263.164,
+      "t_barra": 9.084,
+      "t_chapeu": 1.502
+    },
+    {
+      "navio": 0,
+      "de": 10,
+      "para": 12,
+      "custo": 296.876,
+      "t_barra": 10.248,
+      "t_chapeu": 1.478
+    },
+    {
+      "navio": 0,
+      "de": 10,
+      "para": 14,
+      "custo": 204.729,
+      "t_barra": 7.067,
+      "t_chapeu": 1.098
+    },
+    {
+      "navio": 0,
+      "de": 10,
+      "para": 15,
+      "custo": 217.377,
+      "t_barra": 7.504,
+      "t_chapeu": 1.047
+    },
+    {
+      "navio": 0,
+      "de": 11,
+      "para": "d",
+      "custo": 332.239,
+      "t_barra": 11.468,
+      "t_chapeu": 3.132
+    },
+    {
+      "navio": 0,
+      "de": 11,
+      "para": 1,
+      "custo": 540.497,
+      "t_barra": 18.657,
+      "t_chapeu": 5.657
+    },
+    {
+      "navio": 0,
+      "de": 11,
+      "para": 2,
+      "custo": 464.908,
+      "t_barra": 16.048,
+      "t_chapeu": 4.946
+    },
+    {
+      "navio": 0,
+      "de": 11,
+      "para": 3,
+      "custo": 634.312,
+      "t_barra": 21.895,
+      "t_chapeu": 6.835
+    },
+    {
+      "navio": 0,
+      "de": 11,
+      "para": 5,
+      "custo": 393.733,
+      "t_barra": 13.591,
+      "t_chapeu": 3.885
+    },
+    {
+      "navio": 0,
+      "de": 11,
+      "para": 6,
+      "custo": 537.922,
+      "t_barra": 18.568,
+      "t_chapeu": 6.025
+    },
+    {
+      "navio": 0,
+      "de": 11,
+      "para": 7,
+      "custo": 634.312,
+      "t_barra": 21.895,
+      "t_chapeu": 6.835
+    },
+    {
+      "navio": 0,
+      "de": 11,
+      "para": 8,
+      "custo": 698.588,
+      "t_barra": 24.114,
+      "t_chapeu": 6.966
+    },
+    {
+      "navio": 0,
+      "de": 11,
+      "para": 9,
+      "custo": 580.175,
+      "t_barra": 20.027,
+      "t_chapeu": 6.265
+    },
+    {
+      "navio": 0,
+      "de": 11,
+      "para": 10,
+      "custo": 601.982,
+      "t_barra": 20.779,
+      "t_chapeu": 6.205
+    },
+    {
+      "navio": 0,
+      "de": 11,
+      "para": 12,
+      "custo": 698.588,
+      "t_barra": 24.114,
+      "t_chapeu": 6.966
+    },
+    {
+      "navio": 0,
+      "de": 11,
+      "para": 14,
+      "custo": 503.263,
+      "t_barra": 17.372,
+      "t_chapeu": 5.477
+    },
+    {
+      "navio": 0,
+      "de": 11,
+      "para": 15,
+      "custo": 601.982,
+      "t_barra": 20.779,
+      "t_chapeu": 6.205
+    },
+    {
+      "navio": 0,
+      "de": 12,
+      "para": "d",
+      "custo": 252.211,
+      "t_barra": 8.706,
+      "t_chapeu": 0.903
+    },
+    {
+      "navio": 0,
+      "de": 12,
+      "para": 1,
+      "custo": 277.459,
+      "t_barra": 9.577,
+      "t_chapeu": 1.241
+    },
+    {
+      "navio": 0,
+      "de": 12,
+      "para": 2,
+      "custo": 394.493,
+      "t_barra": 13.617,
+      "t_chapeu": 2.237
+    },
+    {
+      "navio": 0,
+      "de": 12,
+      "para": 3,
+      "custo": 382.044,
+      "t_barra": 13.188,
+      "t_chapeu": 1.982
+    },
+    {
+      "navio": 0,
+      "de": 12,
+      "para": 5,
+      "custo": 478.657,
+      "t_barra": 16.522,
+      "t_chapeu": 2.712
+    },
+    {
+      "navio": 0,
+      "de": 12,
+      "para": 6,
+      "custo": 331.909,
+      "t_barra": 11.457,
+      "t_chapeu": 1.827
+    },
+    {
+      "navio": 0,
+      "de": 12,
+      "para": 7,
+      "custo": 382.044,
+      "t_barra": 13.188,
+      "t_chapeu": 1.982
+    },
+    {
+      "navio": 0,
+      "de": 12,
+      "para": 8,
+      "custo": 403.896,
+      "t_barra": 13.942,
+      "t_chapeu": 1.806
+    },
+    {
+      "navio": 0,
+      "de": 12,
+      "para": 9,
+      "custo": 370.184,
+      "t_barra": 12.778,
+      "t_chapeu": 1.955
+    },
+    {
+      "navio": 0,
+      "de": 12,
+      "para": 10,
+      "custo": 324.398,
+      "t_barra": 11.198,
+      "t_chapeu": 1.478
+    },
+    {
+      "navio": 0,
+      "de": 12,
+      "para": 11,
+      "custo": 370.184,
+      "t_barra": 12.778,
+      "t_chapeu": 1.955
+    },
+    {
+      "navio": 0,
+      "de": 12,
+      "para": 14,
+      "custo": 311.75,
+      "t_barra": 10.761,
+      "t_chapeu": 1.624
+    },
+    {
+      "navio": 0,
+      "de": 12,
+      "para": 15,
+      "custo": 324.398,
+      "t_barra": 11.198,
+      "t_chapeu": 1.478
+    },
+    {
+      "navio": 0,
+      "de": 14,
+      "para": "d",
+      "custo": 220.609,
+      "t_barra": 7.615,
+      "t_chapeu": 1.93
+    },
+    {
+      "navio": 0,
+      "de": 14,
+      "para": 1,
+      "custo": 305.357,
+      "t_barra": 10.54,
+      "t_chapeu": 2.879
+    },
+    {
+      "navio": 0,
+      "de": 14,
+      "para": 2,
+      "custo": 439.372,
+      "t_barra": 15.166,
+      "t_chapeu": 4.756
+    },
+    {
+      "navio": 0,
+      "de": 14,
+      "para": 3,
+      "custo": 297.746,
+      "t_barra": 10.278,
+      "t_chapeu": 2.791
+    },
+    {
+      "navio": 0,
+      "de": 14,
+      "para": 5,
+      "custo": 431.653,
+      "t_barra": 14.9,
+      "t_chapeu": 4.498
+    },
+    {
+      "navio": 0,
+      "de": 14,
+      "para": 6,
+      "custo": 255.321,
+      "t_barra": 8.813,
+      "t_chapeu": 2.42
+    },
+    {
+      "navio": 0,
+      "de": 14,
+      "para": 7,
+      "custo": 297.746,
+      "t_barra": 10.278,
+      "t_chapeu": 2.791
+    },
+    {
+      "navio": 0,
+      "de": 14,
+      "para": 8,
+      "custo": 405.106,
+      "t_barra": 13.984,
+      "t_chapeu": 3.76
+    },
+    {
+      "navio": 0,
+      "de": 14,
+      "para": 9,
+      "custo": 238.189,
+      "t_barra": 8.222,
+      "t_chapeu": 2.086
+    },
+    {
+      "navio": 0,
+      "de": 14,
+      "para": 10,
+      "custo": 393.254,
+      "t_barra": 13.575,
+      "t_chapeu": 3.834
+    },
+    {
+      "navio": 0,
+      "de": 14,
+      "para": 11,
+      "custo": 238.189,
+      "t_barra": 8.222,
+      "t_chapeu": 2.086
+    },
+    {
+      "navio": 0,
+      "de": 14,
+      "para": 12,
+      "custo": 405.106,
+      "t_barra": 13.984,
+      "t_chapeu": 3.76
+    },
+    {
+      "navio": 0,
+      "de": 14,
+      "para": 15,
+      "custo": 393.254,
+      "t_barra": 13.575,
+      "t_chapeu": 3.834
+    },
+    {
+      "navio": 0,
+      "de": 15,
+      "para": "d",
+      "custo": 243.367,
+      "t_barra": 8.401,
+      "t_chapeu": 1.814
+    },
+    {
+      "navio": 0,
+      "de": 15,
+      "para": 1,
+      "custo": 376.593,
+      "t_barra": 12.999,
+      "t_chapeu": 3.539
+    },
+    {
+      "navio": 0,
+      "de": 15,
+      "para": 2,
+      "custo": 261.765,
+      "t_barra": 9.036,
+      "t_chapeu": 2.206
+    },
+    {
+      "navio": 0,
+      "de": 15,
+      "para": 3,
+      "custo": 491.664,
+      "t_barra": 16.971,
+      "t_chapeu": 4.985
+    },
+    {
+      "navio": 0,
+      "de": 15,
+      "para": 5,
+      "custo": 422.29,
+      "t_barra": 14.577,
+      "t_chapeu": 4.16
+    },
+    {
+      "navio": 0,
+      "de": 15,
+      "para": 6,
+      "custo": 410.537,
+      "t_barra": 14.171,
+      "t_chapeu": 4.242
+    },
+    {
+      "navio": 0,
+      "de": 15,
+      "para": 7,
+      "custo": 491.664,
+      "t_barra": 16.971,
+      "t_chapeu": 4.985
+    },
+    {
+      "navio": 0,
+      "de": 15,
+      "para": 8,
+      "custo": 510.757,
+      "t_barra": 17.631,
+      "t_chapeu": 4.77
+    },
+    {
+      "navio": 0,
+      "de": 15,
+      "para": 9,
+      "custo": 460.279,
+      "t_barra": 15.888,
+      "t_chapeu": 4.669
+    },
+    {
+      "navio": 0,
+      "de": 15,
+      "para": 10,
+      "custo": 393.741,
+      "t_barra": 13.591,
+      "t_chapeu": 3.628
+    },
+    {
+      "navio": 0,
+      "de": 15,
+      "para": 11,
+      "custo": 460.279,
+      "t_barra": 15.888,
+      "t_chapeu": 4.669
+    },
+    {
+      "navio": 0,
+      "de": 15,
+      "para": 12,
+      "custo": 510.757,
+      "t_barra": 17.631,
+      "t_chapeu": 4.77
+    },
+    {
+      "navio": 0,
+      "de": 15,
+      "para": 14,
+      "custo": 307.777,
+      "t_barra": 10.624,
+      "t_chapeu": 2.825
+    },
+    {
+      "navio": 1,
+      "de": "o",
+      "para": "d",
+      "custo": 0.0,
+      "t_barra": 0.0,
+      "t_chapeu": 0.0
+    },
+    {
+      "navio": 1,
+      "de": "o",
+      "para": 1,
+      "custo": 213.684,
+      "t_barra": 6.751,
+      "t_chapeu": 2.299
+    },
+    {
+      "navio": 1,
+      "de": "o",
+      "para": 2,
+      "custo": 126.104,
+      "t_barra": 3.984,
+      "t_chapeu": 1.494
+    },
+    {
+      "navio": 1,
+      "de": "o",
+      "para": 3,
+      "custo": 313.799,
+      "t_barra": 9.915,
+      "t_chapeu": 3.391
+    },
+    {
+      "navio": 1,
+      "de": "o",
+      "para": 5,
+      "custo": 76.959,
+      "t_barra": 2.432,
+      "t_chapeu": 0.85
+    },
+    {
+      "navio": 1,
+      "de": "o",
+      "para": 6,
+      "custo": 214.642,
+      "t_barra": 6.782,
+      "t_chapeu": 2.655
+    },
+    {
+      "navio": 1,
+      "de": "o",
+      "para": 7,
+      "custo": 313.799,
+      "t_barra": 9.915,
+      "t_chapeu": 3.391
+    },
+    {
+      "navio": 1,
+      "de": "o",
+      "para": 9,
+      "custo": 259.631,
+      "t_barra": 8.203,
+      "t_chapeu": 2.904
+    },
+    {
+      "navio": 1,
+      "de": "o",
+      "para": 10,
+      "custo": 272.681,
+      "t_barra": 8.616,
+      "t_chapeu": 2.727
+    },
+    {
+      "navio": 1,
+      "de": "o",
+      "para": 11,
+      "custo": 259.631,
+      "t_barra": 8.203,
+      "t_chapeu": 2.904
+    },
+    {
+      "navio": 1,
+      "de": "o",
+      "para": 12,
+      "custo": 375.477,
+      "t_barra": 11.863,
+      "t_chapeu": 3.31
+    },
+    {
+      "navio": 1,
+      "de": "o",
+      "para": 14,
+      "custo": 171.106,
+      "t_barra": 5.406,
+      "t_chapeu": 2.052
+    },
+    {
+      "navio": 1,
+      "de": "o",
+      "para": 15,
+      "custo": 272.681,
+      "t_barra": 8.616,
+      "t_chapeu": 2.727
+    },
+    {
+      "navio": 1,
+      "de": 1,
+      "para": "d",
+      "custo": 294.178,
+      "t_barra": 9.295,
+      "t_chapeu": 2.388
+    },
+    {
+      "navio": 1,
+      "de": 1,
+      "para": 2,
+      "custo": 430.773,
+      "t_barra": 13.611,
+      "t_chapeu": 4.101
+    },
+    {
+      "navio": 1,
+      "de": 1,
+      "para": 3,
+      "custo": 605.19,
+      "t_barra": 19.121,
+      "t_chapeu": 5.864
+    },
+    {
+      "navio": 1,
+      "de": 1,
+      "para": 5,
+      "custo": 357.492,
+      "t_barra": 11.295,
+      "t_chapeu": 3.133
+    },
+    {
+      "navio": 1,
+      "de": 1,
+      "para": 6,
+      "custo": 505.947,
+      "t_barra": 15.986,
+      "t_chapeu": 5.09
+    },
+    {
+      "navio": 1,
+      "de": 1,
+      "para": 7,
+      "custo": 605.19,
+      "t_barra": 19.121,
+      "t_chapeu": 5.864
+    },
+    {
+      "navio": 1,
+      "de": 1,
+      "para": 9,
+      "custo": 549.451,
+      "t_barra": 17.36,
+      "t_chapeu": 5.331
+    },
+    {
+      "navio": 1,
+      "de": 1,
+      "para": 10,
+      "custo": 571.903,
+      "t_barra": 18.07,
+      "t_chapeu": 5.295
+    },
+    {
+      "navio": 1,
+      "de": 1,
+      "para": 11,
+      "custo": 549.451,
+      "t_barra": 17.36,
+      "t_chapeu": 5.331
+    },
+    {
+      "navio": 1,
+      "de": 1,
+      "para": 12,
+      "custo": 671.367,
+      "t_barra": 21.212,
+      "t_chapeu": 6.014
+    },
+    {
+      "navio": 1,
+      "de": 1,
+      "para": 14,
+      "custo": 470.263,
+      "t_barra": 14.858,
+      "t_chapeu": 4.59
+    },
+    {
+      "navio": 1,
+      "de": 1,
+      "para": 15,
+      "custo": 571.903,
+      "t_barra": 18.07,
+      "t_chapeu": 5.295
+    },
+    {
+      "navio": 1,
+      "de": 2,
+      "para": "d",
+      "custo": 119.272,
+      "t_barra": 3.768,
+      "t_chapeu": 0.244
+    },
+    {
+      "navio": 1,
+      "de": 2,
+      "para": 1,
+      "custo": 256.44,
+      "t_barra": 8.102,
+      "t_chapeu": 1.927
+    },
+    {
+      "navio": 1,
+      "de": 2,
+      "para": 3,
+      "custo": 374.916,
+      "t_barra": 11.846,
+      "t_chapeu": 3.397
+    },
+    {
+      "navio": 1,
+      "de": 2,
+      "para": 5,
+      "custo": 303.489,
+      "t_barra": 9.589,
+      "t_chapeu": 2.537
+    },
+    {
+      "navio": 1,
+      "de": 2,
+      "para": 6,
+      "custo": 291.388,
+      "t_barra": 9.207,
+      "t_chapeu": 2.513
+    },
+    {
+      "navio": 1,
+      "de": 2,
+      "para": 7,
+      "custo": 374.916,
+      "t_barra": 11.846,
+      "t_chapeu": 3.397
+    },
+    {
+      "navio": 1,
+      "de": 2,
+      "para": 9,
+      "custo": 342.602,
+      "t_barra": 10.825,
+      "t_chapeu": 3.043
+    },
+    {
+      "navio": 1,
+      "de": 2,
+      "para": 10,
+      "custo": 274.095,
+      "t_barra": 8.66,
+      "t_chapeu": 2.079
+    },
+    {
+      "navio": 1,
+      "de": 2,
+      "para": 11,
+      "custo": 342.602,
+      "t_barra": 10.825,
+      "t_chapeu": 3.043
+    },
+    {
+      "navio": 1,
+      "de": 2,
+      "para": 12,
+      "custo": 394.574,
+      "t_barra": 12.467,
+      "t_chapeu": 3.347
+    },
+    {
+      "navio": 1,
+      "de": 2,
+      "para": 14,
+      "custo": 185.588,
+      "t_barra": 5.864,
+      "t_chapeu": 1.105
+    },
+    {
+      "navio": 1,
+      "de": 2,
+      "para": 15,
+      "custo": 274.095,
+      "t_barra": 8.66,
+      "t_chapeu": 2.079
+    },
+    {
+      "navio": 1,
+      "de": 3,
+      "para": "d",
+      "custo": 384.695,
+      "t_barra": 12.155,
+      "t_chapeu": 3.391
+    },
+    {
+      "navio": 1,
+      "de": 3,
+      "para": 1,
+      "custo": 598.379,
+      "t_barra": 18.906,
+      "t_chapeu": 5.687
+    },
+    {
+      "navio": 1,
+      "de": 3,
+      "para": 2,
+      "custo": 510.798,
+      "t_barra": 16.139,
+      "t_chapeu": 4.983
+    },
+    {
+      "navio": 1,
+      "de": 3,
+      "para": 5,
+      "custo": 461.654,
+      "t_barra": 14.586,
+      "t_chapeu": 4.269
+    },
+    {
+      "navio": 1,
+      "de": 3,
+      "para": 6,
+      "custo": 599.337,
+      "t_barra": 18.936,
+      "t_chapeu": 6.123
+    },
+    {
+      "navio": 1,
+      "de": 3,
+      "para": 7,
+      "custo": 698.494,
+      "t_barra": 22.069,
+      "t_chapeu": 6.782
+    },
+    {
+      "navio": 1,
+      "de": 3,
+      "para": 9,
+      "custo": 644.326,
+      "t_barra": 20.358,
+      "t_chapeu": 6.305
+    },
+    {
+      "navio": 1,
+      "de": 3,
+      "para": 10,
+      "custo": 657.376,
+      "t_barra": 20.77,
+      "t_chapeu": 6.101
+    },
+    {
+      "navio": 1,
+      "de": 3,
+      "para": 11,
+      "custo": 644.326,
+      "t_barra": 20.358,
+      "t_chapeu": 6.305
+    },
+    {
+      "navio": 1,
+      "de": 3,
+      "para": 12,
+      "custo": 760.172,
+      "t_barra": 24.018,
+      "t_chapeu": 6.762
+    },
+    {
+      "navio": 1,
+      "de": 3,
+      "para": 14,
+      "custo": 555.801,
+      "t_barra": 17.561,
+      "t_chapeu": 5.527
+    },
+    {
+      "navio": 1,
+      "de": 3,
+      "para": 15,
+      "custo": 657.376,
+      "t_barra": 20.77,
+      "t_chapeu": 6.101
+    },
+    {
+      "navio": 1,
+      "de": 5,
+      "para": "d",
+      "custo": 217.857,
+      "t_barra": 6.883,
+      "t_chapeu": 1.746
+    },
+    {
+      "navio": 1,
+      "de": 5,
+      "para": 1,
+      "custo": 288.838,
+      "t_barra": 9.126,
+      "t_chapeu": 2.442
+    },
+    {
+      "navio": 1,
+      "de": 5,
+      "para": 2,
+      "custo": 308.6,
+      "t_barra": 9.75,
+      "t_chapeu": 2.784
+    },
+    {
+      "navio": 1,
+      "de": 5,
+      "para": 3,
+      "custo": 404.284,
+      "t_barra": 12.774,
+      "t_chapeu": 3.621
+    },
+    {
+      "navio": 1,
+      "de": 5,
+      "para": 6,
+      "custo": 317.008,
+      "t_barra": 10.016,
+      "t_chapeu": 2.944
+    },
+    {
+      "navio": 1,
+      "de": 5,
+      "para": 7,
+      "custo": 404.284,
+      "t_barra": 12.774,
+      "t_chapeu": 3.621
+    },
+    {
+      "navio": 1,
+      "de": 5,
+      "para": 9,
+      "custo": 368.291,
+      "t_barra": 11.636,
+      "t_chapeu": 3.316
+    },
+    {
+      "navio": 1,
+      "de": 5,
+      "para": 10,
+      "custo": 347.428,
+      "t_barra": 10.977,
+      "t_chapeu": 2.922
+    },
+    {
+      "navio": 1,
+      "de": 5,
+      "para": 11,
+      "custo": 368.291,
+      "t_barra": 11.636,
+      "t_chapeu": 3.316
+    },
+    {
+      "navio": 1,
+      "de": 5,
+      "para": 12,
+      "custo": 445.803,
+      "t_barra": 14.085,
+      "t_chapeu": 3.647
+    },
+    {
+      "navio": 1,
+      "de": 5,
+      "para": 14,
+      "custo": 251.968,
+      "t_barra": 7.961,
+      "t_chapeu": 2.193
+    },
+    {
+      "navio": 1,
+      "de": 5,
+      "para": 15,
+      "custo": 347.428,
+      "t_barra": 10.977,
+      "t_chapeu": 2.922
+    },
+    {
+      "navio": 1,
+      "de": 6,
+      "para": "d",
+      "custo": 74.985,
+      "t_barra": 2.369,
+      "t_chapeu": 0.44
+    },
+    {
+      "navio": 1,
+      "de": 6,
+      "para": 1,
+      "custo": 162.241,
+      "t_barra": 5.126,
+      "t_chapeu": 1.416
+    },
+    {
+      "navio": 1,
+      "de": 6,
+      "para": 2,
+      "custo": 300.222,
+      "t_barra": 9.486,
+      "t_chapeu": 3.148
+    },
+    {
+      "navio": 1,
+      "de": 6,
+      "para": 3,
+      "custo": 154.405,
+      "t_barra": 4.879,
+      "t_chapeu": 1.329
+    },
+    {
+      "navio": 1,
+      "de": 6,
+      "para": 5,
+      "custo": 292.274,
+      "t_barra": 9.235,
+      "t_chapeu": 2.95
+    },
+    {
+      "navio": 1,
+      "de": 6,
+      "para": 7,
+      "custo": 154.405,
+      "t_barra": 4.879,
+      "t_chapeu": 1.329
+    },
+    {
+      "navio": 1,
+      "de": 6,
+      "para": 9,
+      "custo": 93.086,
+      "t_barra": 2.941,
+      "t_chapeu": 0.632
+    },
+    {
+      "navio": 1,
+      "de": 6,
+      "para": 10,
+      "custo": 252.738,
+      "t_barra": 7.985,
+      "t_chapeu": 2.378
+    },
+    {
+      "navio": 1,
+      "de": 6,
+      "para": 11,
+      "custo": 93.086,
+      "t_barra": 2.941,
+      "t_chapeu": 0.632
+    },
+    {
+      "navio": 1,
+      "de": 6,
+      "para": 12,
+      "custo": 264.941,
+      "t_barra": 8.371,
+      "t_chapeu": 2.38
+    },
+    {
+      "navio": 1,
+      "de": 6,
+      "para": 14,
+      "custo": 227.256,
+      "t_barra": 7.18,
+      "t_chapeu": 2.281
+    },
+    {
+      "navio": 1,
+      "de": 6,
+      "para": 15,
+      "custo": 252.738,
+      "t_barra": 7.985,
+      "t_chapeu": 2.378
+    },
+    {
+      "navio": 1,
+      "de": 7,
+      "para": "d",
+      "custo": 251.413,
+      "t_barra": 7.944,
+      "t_chapeu": 0.995
+    },
+    {
+      "navio": 1,
+      "de": 7,
+      "para": 1,
+      "custo": 277.408,
+      "t_barra": 8.765,
+      "t_chapeu": 1.184
+    },
+    {
+      "navio": 1,
+      "de": 7,
+      "para": 2,
+      "custo": 397.905,
+      "t_barra": 12.572,
+      "t_chapeu": 2.231
+    },
+    {
+      "navio": 1,
+      "de": 7,
+      "para": 3,
+      "custo": 385.088,
+      "t_barra": 12.167,
+      "t_chapeu": 1.989
+    },
+    {
+      "navio": 1,
+      "de": 7,
+      "para": 5,
+      "custo": 484.559,
+      "t_barra": 15.31,
+      "t_chapeu": 2.773
+    },
+    {
+      "navio": 1,
+      "de": 7,
+      "para": 6,
+      "custo": 333.469,
+      "t_barra": 10.536,
+      "t_chapeu": 1.774
+    },
+    {
+      "navio": 1,
+      "de": 7,
+      "para": 9,
+      "custo": 372.877,
+      "t_barra": 11.781,
+      "t_chapeu": 1.947
+    },
+    {
+      "navio": 1,
+      "de": 7,
+      "para": 10,
+      "custo": 325.735,
+      "t_barra": 10.292,
+      "t_chapeu": 1.464
+    },
+    {
+      "navio": 1,
+      "de": 7,
+      "para": 11,
+      "custo": 372.877,
+      "t_barra": 11.781,
+      "t_chapeu": 1.947
+    },
+    {
+      "navio": 1,
+      "de": 7,
+      "para": 12,
+      "custo": 407.587,
+      "t_barra": 12.878,
+      "t_chapeu": 1.868
+    },
+    {
+      "navio": 1,
+      "de": 7,
+      "para": 14,
+      "custo": 312.713,
+      "t_barra": 9.88,
+      "t_chapeu": 1.566
+    },
+    {
+      "navio": 1,
+      "de": 7,
+      "para": 15,
+      "custo": 325.735,
+      "t_barra": 10.292,
+      "t_chapeu": 1.464
+    },
+    {
+      "navio": 1,
+      "de": 9,
+      "para": "d",
+      "custo": 88.68,
+      "t_barra": 2.802,
+      "t_chapeu": 0.202
+    },
+    {
+      "navio": 1,
+      "de": 9,
+      "para": 1,
+      "custo": 175.936,
+      "t_barra": 5.559,
+      "t_chapeu": 1.151
+    },
+    {
+      "navio": 1,
+      "de": 9,
+      "para": 2,
+      "custo": 313.917,
+      "t_barra": 9.918,
+      "t_chapeu": 2.791
+    },
+    {
+      "navio": 1,
+      "de": 9,
+      "para": 3,
+      "custo": 168.1,
+      "t_barra": 5.311,
+      "t_chapeu": 1.068
+    },
+    {
+      "navio": 1,
+      "de": 9,
+      "para": 5,
+      "custo": 305.969,
+      "t_barra": 9.667,
+      "t_chapeu": 2.605
+    },
+    {
+      "navio": 1,
+      "de": 9,
+      "para": 6,
+      "custo": 124.419,
+      "t_barra": 3.931,
+      "t_chapeu": 0.632
+    },
+    {
+      "navio": 1,
+      "de": 9,
+      "para": 7,
+      "custo": 168.1,
+      "t_barra": 5.311,
+      "t_chapeu": 1.068
+    },
+    {
+      "navio": 1,
+      "de": 9,
+      "para": 10,
+      "custo": 266.433,
+      "t_barra": 8.418,
+      "t_chapeu": 2.065
+    },
+    {
+      "navio": 1,
+      "de": 9,
+      "para": 11,
+      "custo": 106.78,
+      "t_barra": 3.374,
+      "t_chapeu": 0.403
+    },
+    {
+      "navio": 1,
+      "de": 9,
+      "para": 12,
+      "custo": 278.636,
+      "t_barra": 8.804,
+      "t_chapeu": 2.071
+    },
+    {
+      "navio": 1,
+      "de": 9,
+      "para": 14,
+      "custo": 240.95,
+      "t_barra": 7.613,
+      "t_chapeu": 1.966
+    },
+    {
+      "navio": 1,
+      "de": 9,
+      "para": 15,
+      "custo": 266.433,
+      "t_barra": 8.418,
+      "t_chapeu": 2.065
+    },
+    {
+      "navio": 1,
+      "de": 10,
+      "para": "d",
+      "custo": 154.08,
+      "t_barra": 4.868,
+      "t_chapeu": 0.493
+    },
+    {
+      "navio": 1,
+      "de": 10,
+      "para": 1,
+      "custo": 180.075,
+      "t_barra": 5.69,
+      "t_chapeu": 0.704
+    },
+    {
+      "navio": 1,
+      "de": 10,
+      "para": 2,
+      "custo": 300.573,
+      "t_barra": 9.497,
+      "t_chapeu": 1.669
+    },
+    {
+      "navio": 1,
+      "de": 10,
+      "para": 3,
+      "custo": 287.755,
+      "t_barra": 9.092,
+      "t_chapeu": 1.464
+    },
+    {
+      "navio": 1,
+      "de": 10,
+      "para": 5,
+      "custo": 387.226,
+      "t_barra": 12.235,
+      "t_chapeu": 2.2
+    },
+    {
+      "navio": 1,
+      "de": 10,
+      "para": 6,
+      "custo": 236.137,
+      "t_barra": 7.461,
+      "t_chapeu": 1.223
+    },
+    {
+      "navio": 1,
+      "de": 10,
+      "para": 7,
+      "custo": 287.755,
+      "t_barra": 9.092,
+      "t_chapeu": 1.464
+    },
+    {
+      "navio": 1,
+      "de": 10,
+      "para": 9,
+      "custo": 275.545,
+      "t_barra": 8.706,
+      "t_chapeu": 1.415
+    },
+    {
+      "navio": 1,
+      "de": 10,
+      "para": 11,
+      "custo": 275.545,
+      "t_barra": 8.706,
+      "t_chapeu": 1.415
+    },
+    {
+      "navio": 1,
+      "de": 10,
+      "para": 12,
+      "custo": 310.254,
+      "t_barra": 9.803,
+      "t_chapeu": 1.393
+    },
+    {
+      "navio": 1,
+      "de": 10,
+      "para": 14,
+      "custo": 215.381,
+      "t_barra": 6.805,
+      "t_chapeu": 1.035
+    },
+    {
+      "navio": 1,
+      "de": 10,
+      "para": 15,
+      "custo": 228.403,
+      "t_barra": 7.217,
+      "t_chapeu": 0.986
+    },
+    {
+      "navio": 1,
+      "de": 11,
+      "para": "d",
+      "custo": 347.374,
+      "t_barra": 10.975,
+      "t_chapeu": 2.952
+    },
+    {
+      "navio": 1,
+      "de": 11,
+      "para": 1,
+      "custo": 561.794,
+      "t_barra": 17.75,
+      "t_chapeu": 5.331
+    },
+    {
+      "navio": 1,
+      "de": 11,
+      "para": 2,
+      "custo": 483.969,
+      "t_barra": 15.291,
+      "t_chapeu": 4.662
+    },
+    {
+      "navio": 1,
+      "de": 11,
+      "para": 3,
+      "custo": 658.386,
+      "t_barra": 20.802,
+      "t_chapeu": 6.441
+    },
+    {
+      "navio": 1,
+      "de": 11,
+      "para": 5,
+      "custo": 410.688,
+      "t_barra": 12.976,
+      "t_chapeu": 3.661
+    },
+    {
+      "navio": 1,
+      "de": 11,
+      "para": 6,
+      "custo": 559.143,
+      "t_barra": 17.666,
+      "t_chapeu": 5.678
+    },
+    {
+      "navio": 1,
+      "de": 11,
+      "para": 7,
+      "custo": 658.386,
+      "t_barra": 20.802,
+      "t_chapeu": 6.441
+    },
+    {
+      "navio": 1,
+      "de": 11,
+      "para": 9,
+      "custo": 602.647,
+      "t_barra": 19.041,
+      "t_chapeu": 5.904
+    },
+    {
+      "navio": 1,
+      "de": 11,
+      "para": 10,
+      "custo": 625.099,
+      "t_barra": 19.75,
+      "t_chapeu": 5.848
+    },
+    {
+      "navio": 1,
+      "de": 11,
+      "para": 12,
+      "custo": 724.563,
+      "t_barra": 22.893,
+      "t_chapeu": 6.564
+    },
+    {
+      "navio": 1,
+      "de": 11,
+      "para": 14,
+      "custo": 523.459,
+      "t_barra": 16.539,
+      "t_chapeu": 5.162
+    },
+    {
+      "navio": 1,
+      "de": 11,
+      "para": 15,
+      "custo": 625.099,
+      "t_barra": 19.75,
+      "t_chapeu": 5.848
+    },
+    {
+      "navio": 1,
+      "de": 12,
+      "para": "d",
+      "custo": 265.999,
+      "t_barra": 8.404,
+      "t_chapeu": 0.851
+    },
+    {
+      "navio": 1,
+      "de": 12,
+      "para": 1,
+      "custo": 291.994,
+      "t_barra": 9.226,
+      "t_chapeu": 1.17
+    },
+    {
+      "navio": 1,
+      "de": 12,
+      "para": 2,
+      "custo": 412.491,
+      "t_barra": 13.033,
+      "t_chapeu": 2.109
+    },
+    {
+      "navio": 1,
+      "de": 12,
+      "para": 3,
+      "custo": 399.674,
+      "t_barra": 12.628,
+      "t_chapeu": 1.868
+    },
+    {
+      "navio": 1,
+      "de": 12,
+      "para": 5,
+      "custo": 499.145,
+      "t_barra": 15.771,
+      "t_chapeu": 2.555
+    },
+    {
+      "navio": 1,
+      "de": 12,
+      "para": 6,
+      "custo": 348.055,
+      "t_barra": 10.997,
+      "t_chapeu": 1.722
+    },
+    {
+      "navio": 1,
+      "de": 12,
+      "para": 7,
+      "custo": 399.674,
+      "t_barra": 12.628,
+      "t_chapeu": 1.868
+    },
+    {
+      "navio": 1,
+      "de": 12,
+      "para": 9,
+      "custo": 387.463,
+      "t_barra": 12.242,
+      "t_chapeu": 1.842
+    },
+    {
+      "navio": 1,
+      "de": 12,
+      "para": 10,
+      "custo": 340.322,
+      "t_barra": 10.753,
+      "t_chapeu": 1.393
+    },
+    {
+      "navio": 1,
+      "de": 12,
+      "para": 11,
+      "custo": 387.463,
+      "t_barra": 12.242,
+      "t_chapeu": 1.842
+    },
+    {
+      "navio": 1,
+      "de": 12,
+      "para": 14,
+      "custo": 327.299,
+      "t_barra": 10.341,
+      "t_chapeu": 1.531
+    },
+    {
+      "navio": 1,
+      "de": 12,
+      "para": 15,
+      "custo": 340.322,
+      "t_barra": 10.753,
+      "t_chapeu": 1.393
+    },
+    {
+      "navio": 1,
+      "de": 14,
+      "para": "d",
+      "custo": 231.712,
+      "t_barra": 7.321,
+      "t_chapeu": 1.819
+    },
+    {
+      "navio": 1,
+      "de": 14,
+      "para": 1,
+      "custo": 318.968,
+      "t_barra": 10.078,
+      "t_chapeu": 2.713
+    },
+    {
+      "navio": 1,
+      "de": 14,
+      "para": 2,
+      "custo": 456.948,
+      "t_barra": 14.438,
+      "t_chapeu": 4.482
+    },
+    {
+      "navio": 1,
+      "de": 14,
+      "para": 3,
+      "custo": 311.132,
+      "t_barra": 9.83,
+      "t_chapeu": 2.63
+    },
+    {
+      "navio": 1,
+      "de": 14,
+      "para": 5,
+      "custo": 449.001,
+      "t_barra": 14.186,
+      "t_chapeu": 4.239
+    },
+    {
+      "navio": 1,
+      "de": 14,
+      "para": 6,
+      "custo": 267.451,
+      "t_barra": 8.45,
+      "t_chapeu": 2.281
+    },
+    {
+      "navio": 1,
+      "de": 14,
+      "para": 7,
+      "custo": 311.132,
+      "t_barra": 9.83,
+      "t_chapeu": 2.63
+    },
+    {
+      "navio": 1,
+      "de": 14,
+      "para": 9,
+      "custo": 249.812,
+      "t_barra": 7.893,
+      "t_chapeu": 1.966
+    },
+    {
+      "navio": 1,
+      "de": 14,
+      "para": 10,
+      "custo": 409.465,
+      "t_barra": 12.937,
+      "t_chapeu": 3.613
+    },
+    {
+      "navio": 1,
+      "de": 14,
+      "para": 11,
+      "custo": 249.812,
+      "t_barra": 7.893,
+      "t_chapeu": 1.966
+    },
+    {
+      "navio": 1,
+      "de": 14,
+      "para": 12,
+      "custo": 421.668,
+      "t_barra": 13.323,
+      "t_chapeu": 3.544
+    },
+    {
+      "navio": 1,
+      "de": 14,
+      "para": 15,
+      "custo": 409.465,
+      "t_barra": 12.937,
+      "t_chapeu": 3.613
+    },
+    {
+      "navio": 1,
+      "de": 15,
+      "para": "d",
+      "custo": 256.42,
+      "t_barra": 8.102,
+      "t_chapeu": 1.71
+    },
+    {
+      "navio": 1,
+      "de": 15,
+      "para": 1,
+      "custo": 393.587,
+      "t_barra": 12.436,
+      "t_chapeu": 3.335
+    },
+    {
+      "navio": 1,
+      "de": 15,
+      "para": 2,
+      "custo": 275.361,
+      "t_barra": 8.7,
+      "t_chapeu": 2.079
+    },
+    {
+      "navio": 1,
+      "de": 15,
+      "para": 3,
+      "custo": 512.064,
+      "t_barra": 16.179,
+      "t_chapeu": 4.698
+    },
+    {
+      "navio": 1,
+      "de": 15,
+      "para": 5,
+      "custo": 440.637,
+      "t_barra": 13.922,
+      "t_chapeu": 3.921
+    },
+    {
+      "navio": 1,
+      "de": 15,
+      "para": 6,
+      "custo": 428.536,
+      "t_barra": 13.54,
+      "t_chapeu": 3.998
+    },
+    {
+      "navio": 1,
+      "de": 15,
+      "para": 7,
+      "custo": 512.064,
+      "t_barra": 16.179,
+      "t_chapeu": 4.698
+    },
+    {
+      "navio": 1,
+      "de": 15,
+      "para": 9,
+      "custo": 479.75,
+      "t_barra": 15.158,
+      "t_chapeu": 4.4
+    },
+    {
+      "navio": 1,
+      "de": 15,
+      "para": 10,
+      "custo": 411.243,
+      "t_barra": 12.993,
+      "t_chapeu": 3.419
+    },
+    {
+      "navio": 1,
+      "de": 15,
+      "para": 11,
+      "custo": 479.75,
+      "t_barra": 15.158,
+      "t_chapeu": 4.4
+    },
+    {
+      "navio": 1,
+      "de": 15,
+      "para": 12,
+      "custo": 531.721,
+      "t_barra": 16.8,
+      "t_chapeu": 4.495
+    },
+    {
+      "navio": 1,
+      "de": 15,
+      "para": 14,
+      "custo": 322.736,
+      "t_barra": 10.197,
+      "t_chapeu": 2.662
+    },
+    {
+      "navio": 2,
+      "de": "o",
+      "para": "d",
+      "custo": 0.0,
+      "t_barra": 0.0,
+      "t_chapeu": 0.0
+    },
+    {
+      "navio": 2,
+      "de": "o",
+      "para": 1,
+      "custo": 149.0,
+      "t_barra": 6.183,
+      "t_chapeu": 2.105
+    },
+    {
+      "navio": 2,
+      "de": "o",
+      "para": 2,
+      "custo": 156.3,
+      "t_barra": 6.485,
+      "t_chapeu": 2.432
+    },
+    {
+      "navio": 2,
+      "de": "o",
+      "para": 3,
+      "custo": 209.523,
+      "t_barra": 8.694,
+      "t_chapeu": 2.973
+    },
+    {
+      "navio": 2,
+      "de": "o",
+      "para": 4,
+      "custo": 227.351,
+      "t_barra": 9.434,
+      "t_chapeu": 2.986
+    },
+    {
+      "navio": 2,
+      "de": "o",
+      "para": 5,
+      "custo": 53.371,
+      "t_barra": 2.215,
+      "t_chapeu": 0.774
+    },
+    {
+      "navio": 2,
+      "de": "o",
+      "para": 6,
+      "custo": 125.88,
+      "t_barra": 5.223,
+      "t_chapeu": 2.045
+    },
+    {
+      "navio": 2,
+      "de": "o",
+      "para": 7,
+      "custo": 209.523,
+      "t_barra": 8.694,
+      "t_chapeu": 2.973
+    },
+    {
+      "navio": 2,
+      "de": "o",
+      "para": 8,
+      "custo": 290.131,
+      "t_barra": 12.039,
+      "t_chapeu": 3.359
+    },
+    {
+      "navio": 2,
+      "de": "o",
+      "para": 10,
+      "custo": 227.351,
+      "t_barra": 9.434,
+      "t_chapeu": 2.986
+    },
+    {
+      "navio": 2,
+      "de": "o",
+      "para": 11,
+      "custo": 154.581,
+      "t_barra": 6.414,
+      "t_chapeu": 2.271
+    },
+    {
+      "navio": 2,
+      "de": "o",
+      "para": 12,
+      "custo": 290.131,
+      "t_barra": 12.039,
+      "t_chapeu": 3.359
+    },
+    {
+      "navio": 2,
+      "de": "o",
+      "para": 13,
+      "custo": 147.242,
+      "t_barra": 6.11,
+      "t_chapeu": 2.319
+    },
+    {
+      "navio": 2,
+      "de": "o",
+      "para": 14,
+      "custo": 147.242,
+      "t_barra": 6.11,
+      "t_chapeu": 2.319
+    },
+    {
+      "navio": 2,
+      "de": "o",
+      "para": 15,
+      "custo": 227.351,
+      "t_barra": 9.434,
+      "t_chapeu": 2.986
+    },
+    {
+      "navio": 2,
+      "de": 1,
+      "para": "d",
+      "custo": 250.883,
+      "t_barra": 10.41,
+      "t_chapeu": 2.781
+    },
+    {
+      "navio": 2,
+      "de": 1,
+      "para": 2,
+      "custo": 372.017,
+      "t_barra": 15.436,
+      "t_chapeu": 4.776
+    },
+    {
+      "navio": 2,
+      "de": 1,
+      "para": 3,
+      "custo": 526.693,
+      "t_barra": 21.854,
+      "t_chapeu": 6.83
+    },
+    {
+      "navio": 2,
+      "de": 1,
+      "para": 4,
+      "custo": 497.173,
+      "t_barra": 20.63,
+      "t_chapeu": 6.166
+    },
+    {
+      "navio": 2,
+      "de": 1,
+      "para": 5,
+      "custo": 307.031,
+      "t_barra": 12.74,
+      "t_chapeu": 3.648
+    },
+    {
+      "navio": 2,
+      "de": 1,
+      "para": 6,
+      "custo": 438.683,
+      "t_barra": 18.203,
+      "t_chapeu": 5.928
+    },
+    {
+      "navio": 2,
+      "de": 1,
+      "para": 7,
+      "custo": 526.693,
+      "t_barra": 21.854,
+      "t_chapeu": 6.83
+    },
+    {
+      "navio": 2,
+      "de": 1,
+      "para": 8,
+      "custo": 585.38,
+      "t_barra": 24.29,
+      "t_chapeu": 7.004
+    },
+    {
+      "navio": 2,
+      "de": 1,
+      "para": 10,
+      "custo": 497.173,
+      "t_barra": 20.63,
+      "t_chapeu": 6.166
+    },
+    {
+      "navio": 2,
+      "de": 1,
+      "para": 11,
+      "custo": 477.263,
+      "t_barra": 19.803,
+      "t_chapeu": 6.209
+    },
+    {
+      "navio": 2,
+      "de": 1,
+      "para": 12,
+      "custo": 585.38,
+      "t_barra": 24.29,
+      "t_chapeu": 7.004
+    },
+    {
+      "navio": 2,
+      "de": 1,
+      "para": 13,
+      "custo": 407.038,
+      "t_barra": 16.89,
+      "t_chapeu": 5.345
+    },
+    {
+      "navio": 2,
+      "de": 1,
+      "para": 14,
+      "custo": 407.038,
+      "t_barra": 16.89,
+      "t_chapeu": 5.345
+    },
+    {
+      "navio": 2,
+      "de": 1,
+      "para": 15,
+      "custo": 497.173,
+      "t_barra": 20.63,
+      "t_chapeu": 6.166
+    },
+    {
+      "navio": 2,
+      "de": 2,
+      "para": "d",
+      "custo": 93.195,
+      "t_barra": 3.867,
+      "t_chapeu": 0.284
+    },
+    {
+      "navio": 2,
+      "de": 2,
+      "para": 1,
+      "custo": 214.837,
+      "t_barra": 8.914,
+      "t_chapeu": 2.245
+    },
+    {
+      "navio": 2,
+      "de": 2,
+      "para": 3,
+      "custo": 319.903,
+      "t_barra": 13.274,
+      "t_chapeu": 3.956
+    },
+    {
+      "navio": 2,
+      "de": 2,
+      "para": 4,
+      "custo": 230.494,
+      "t_barra": 9.564,
+      "t_chapeu": 2.422
+    },
+    {
+      "navio": 2,
+      "de": 2,
+      "para": 5,
+      "custo": 256.561,
+      "t_barra": 10.646,
+      "t_chapeu": 2.955
+    },
+    {
+      "navio": 2,
+      "de": 2,
+      "para": 6,
+      "custo": 245.83,
+      "t_barra": 10.2,
+      "t_chapeu": 2.926
+    },
+    {
+      "navio": 2,
+      "de": 2,
+      "para": 7,
+      "custo": 319.903,
+      "t_barra": 13.274,
+      "t_chapeu": 3.956
+    },
+    {
+      "navio": 2,
+      "de": 2,
+      "para": 8,
+      "custo": 337.336,
+      "t_barra": 13.997,
+      "t_chapeu": 3.898
+    },
+    {
+      "navio": 2,
+      "de": 2,
+      "para": 10,
+      "custo": 230.494,
+      "t_barra": 9.564,
+      "t_chapeu": 2.422
+    },
+    {
+      "navio": 2,
+      "de": 2,
+      "para": 11,
+      "custo": 291.247,
+      "t_barra": 12.085,
+      "t_chapeu": 3.544
+    },
+    {
+      "navio": 2,
+      "de": 2,
+      "para": 12,
+      "custo": 337.336,
+      "t_barra": 13.997,
+      "t_chapeu": 3.898
+    },
+    {
+      "navio": 2,
+      "de": 2,
+      "para": 13,
+      "custo": 152.005,
+      "t_barra": 6.307,
+      "t_chapeu": 1.287
+    },
+    {
+      "navio": 2,
+      "de": 2,
+      "para": 14,
+      "custo": 152.005,
+      "t_barra": 6.307,
+      "t_chapeu": 1.287
+    },
+    {
+      "navio": 2,
+      "de": 2,
+      "para": 15,
+      "custo": 230.494,
+      "t_barra": 9.564,
+      "t_chapeu": 2.422
+    },
+    {
+      "navio": 2,
+      "de": 3,
+      "para": "d",
+      "custo": 332.265,
+      "t_barra": 13.787,
+      "t_chapeu": 3.949
+    },
+    {
+      "navio": 2,
+      "de": 3,
+      "para": 1,
+      "custo": 521.764,
+      "t_barra": 21.65,
+      "t_chapeu": 6.624
+    },
+    {
+      "navio": 2,
+      "de": 3,
+      "para": 2,
+      "custo": 444.096,
+      "t_barra": 18.427,
+      "t_chapeu": 5.803
+    },
+    {
+      "navio": 2,
+      "de": 3,
+      "para": 4,
+      "custo": 574.083,
+      "t_barra": 23.821,
+      "t_chapeu": 7.105
+    },
+    {
+      "navio": 2,
+      "de": 3,
+      "para": 5,
+      "custo": 400.514,
+      "t_barra": 16.619,
+      "t_chapeu": 4.971
+    },
+    {
+      "navio": 2,
+      "de": 3,
+      "para": 6,
+      "custo": 522.613,
+      "t_barra": 21.685,
+      "t_chapeu": 7.132
+    },
+    {
+      "navio": 2,
+      "de": 3,
+      "para": 7,
+      "custo": 610.547,
+      "t_barra": 25.334,
+      "t_chapeu": 7.898
+    },
+    {
+      "navio": 2,
+      "de": 3,
+      "para": 8,
+      "custo": 665.244,
+      "t_barra": 27.603,
+      "t_chapeu": 7.875
+    },
+    {
+      "navio": 2,
+      "de": 3,
+      "para": 10,
+      "custo": 574.083,
+      "t_barra": 23.821,
+      "t_chapeu": 7.105
+    },
+    {
+      "navio": 2,
+      "de": 3,
+      "para": 11,
+      "custo": 562.51,
+      "t_barra": 23.341,
+      "t_chapeu": 7.343
+    },
+    {
+      "navio": 2,
+      "de": 3,
+      "para": 12,
+      "custo": 665.244,
+      "t_barra": 27.603,
+      "t_chapeu": 7.875
+    },
+    {
+      "navio": 2,
+      "de": 3,
+      "para": 13,
+      "custo": 484.005,
+      "t_barra": 20.083,
+      "t_chapeu": 6.437
+    },
+    {
+      "navio": 2,
+      "de": 3,
+      "para": 14,
+      "custo": 484.005,
+      "t_barra": 20.083,
+      "t_chapeu": 6.437
+    },
+    {
+      "navio": 2,
+      "de": 3,
+      "para": 15,
+      "custo": 574.083,
+      "t_barra": 23.821,
+      "t_chapeu": 7.105
+    },
+    {
+      "navio": 2,
+      "de": 4,
+      "para": "d",
+      "custo": 209.69,
+      "t_barra": 8.701,
+      "t_chapeu": 2.06
+    },
+    {
+      "navio": 2,
+      "de": 4,
+      "para": 1,
+      "custo": 287.07,
+      "t_barra": 11.912,
+      "t_chapeu": 3.189
+    },
+    {
+      "navio": 2,
+      "de": 4,
+      "para": 2,
+      "custo": 409.433,
+      "t_barra": 16.989,
+      "t_chapeu": 5.105
+    },
+    {
+      "navio": 2,
+      "de": 4,
+      "para": 3,
+      "custo": 280.121,
+      "t_barra": 11.623,
+      "t_chapeu": 3.102
+    },
+    {
+      "navio": 2,
+      "de": 4,
+      "para": 5,
+      "custo": 402.385,
+      "t_barra": 16.696,
+      "t_chapeu": 4.819
+    },
+    {
+      "navio": 2,
+      "de": 4,
+      "para": 6,
+      "custo": 241.384,
+      "t_barra": 10.016,
+      "t_chapeu": 2.769
+    },
+    {
+      "navio": 2,
+      "de": 4,
+      "para": 7,
+      "custo": 280.121,
+      "t_barra": 11.623,
+      "t_chapeu": 3.102
+    },
+    {
+      "navio": 2,
+      "de": 4,
+      "para": 8,
+      "custo": 378.146,
+      "t_barra": 15.691,
+      "t_chapeu": 4.008
+    },
+    {
+      "navio": 2,
+      "de": 4,
+      "para": 10,
+      "custo": 367.324,
+      "t_barra": 15.242,
+      "t_chapeu": 4.121
+    },
+    {
+      "navio": 2,
+      "de": 4,
+      "para": 11,
+      "custo": 225.742,
+      "t_barra": 9.367,
+      "t_chapeu": 2.405
+    },
+    {
+      "navio": 2,
+      "de": 4,
+      "para": 12,
+      "custo": 378.146,
+      "t_barra": 15.691,
+      "t_chapeu": 4.008
+    },
+    {
+      "navio": 2,
+      "de": 4,
+      "para": 13,
+      "custo": 344.726,
+      "t_barra": 14.304,
+      "t_chapeu": 4.208
+    },
+    {
+      "navio": 2,
+      "de": 4,
+      "para": 14,
+      "custo": 344.726,
+      "t_barra": 14.304,
+      "t_chapeu": 4.208
+    },
+    {
+      "navio": 2,
+      "de": 4,
+      "para": 15,
+      "custo": 367.324,
+      "t_barra": 15.242,
+      "t_chapeu": 4.121
+    },
+    {
+      "navio": 2,
+      "de": 5,
+      "para": "d",
+      "custo": 187.168,
+      "t_barra": 7.766,
+      "t_chapeu": 2.033
+    },
+    {
+      "navio": 2,
+      "de": 5,
+      "para": 1,
+      "custo": 250.115,
+      "t_barra": 10.378,
+      "t_chapeu": 2.843
+    },
+    {
+      "navio": 2,
+      "de": 5,
+      "para": 2,
+      "custo": 267.64,
+      "t_barra": 11.105,
+      "t_chapeu": 3.242
+    },
+    {
+      "navio": 2,
+      "de": 5,
+      "para": 3,
+      "custo": 352.494,
+      "t_barra": 14.626,
+      "t_chapeu": 4.217
+    },
+    {
+      "navio": 2,
+      "de": 5,
+      "para": 4,
+      "custo": 302.074,
+      "t_barra": 12.534,
+      "t_chapeu": 3.403
+    },
+    {
+      "navio": 2,
+      "de": 5,
+      "para": 6,
+      "custo": 275.096,
+      "t_barra": 11.415,
+      "t_chapeu": 3.429
+    },
+    {
+      "navio": 2,
+      "de": 5,
+      "para": 7,
+      "custo": 352.494,
+      "t_barra": 14.626,
+      "t_chapeu": 4.217
+    },
+    {
+      "navio": 2,
+      "de": 5,
+      "para": 8,
+      "custo": 389.313,
+      "t_barra": 16.154,
+      "t_chapeu": 4.248
+    },
+    {
+      "navio": 2,
+      "de": 5,
+      "para": 10,
+      "custo": 302.074,
+      "t_barra": 12.534,
+      "t_chapeu": 3.403
+    },
+    {
+      "navio": 2,
+      "de": 5,
+      "para": 11,
+      "custo": 320.575,
+      "t_barra": 13.302,
+      "t_chapeu": 3.862
+    },
+    {
+      "navio": 2,
+      "de": 5,
+      "para": 12,
+      "custo": 389.313,
+      "t_barra": 16.154,
+      "t_chapeu": 4.248
+    },
+    {
+      "navio": 2,
+      "de": 5,
+      "para": 13,
+      "custo": 217.418,
+      "t_barra": 9.021,
+      "t_chapeu": 2.554
+    },
+    {
+      "navio": 2,
+      "de": 5,
+      "para": 14,
+      "custo": 217.418,
+      "t_barra": 9.021,
+      "t_chapeu": 2.554
+    },
+    {
+      "navio": 2,
+      "de": 5,
+      "para": 15,
+      "custo": 302.074,
+      "t_barra": 12.534,
+      "t_chapeu": 3.403
+    },
+    {
+      "navio": 2,
+      "de": 6,
+      "para": "d",
+      "custo": 61.578,
+      "t_barra": 2.555,
+      "t_chapeu": 0.513
+    },
+    {
+      "navio": 2,
+      "de": 6,
+      "para": 1,
+      "custo": 138.958,
+      "t_barra": 5.766,
+      "t_chapeu": 1.65
+    },
+    {
+      "navio": 2,
+      "de": 6,
+      "para": 2,
+      "custo": 261.321,
+      "t_barra": 10.843,
+      "t_chapeu": 3.666
+    },
+    {
+      "navio": 2,
+      "de": 6,
+      "para": 3,
+      "custo": 132.009,
+      "t_barra": 5.478,
+      "t_chapeu": 1.548
+    },
+    {
+      "navio": 2,
+      "de": 6,
+      "para": 4,
+      "custo": 219.212,
+      "t_barra": 9.096,
+      "t_chapeu": 2.769
+    },
+    {
+      "navio": 2,
+      "de": 6,
+      "para": 5,
+      "custo": 254.273,
+      "t_barra": 10.551,
+      "t_chapeu": 3.436
+    },
+    {
+      "navio": 2,
+      "de": 6,
+      "para": 7,
+      "custo": 132.009,
+      "t_barra": 5.478,
+      "t_chapeu": 1.548
+    },
+    {
+      "navio": 2,
+      "de": 6,
+      "para": 8,
+      "custo": 230.034,
+      "t_barra": 9.545,
+      "t_chapeu": 2.772
+    },
+    {
+      "navio": 2,
+      "de": 6,
+      "para": 10,
+      "custo": 219.212,
+      "t_barra": 9.096,
+      "t_chapeu": 2.769
+    },
+    {
+      "navio": 2,
+      "de": 6,
+      "para": 11,
+      "custo": 77.63,
+      "t_barra": 3.221,
+      "t_chapeu": 0.736
+    },
+    {
+      "navio": 2,
+      "de": 6,
+      "para": 12,
+      "custo": 230.034,
+      "t_barra": 9.545,
+      "t_chapeu": 2.772
+    },
+    {
+      "navio": 2,
+      "de": 6,
+      "para": 13,
+      "custo": 196.614,
+      "t_barra": 8.158,
+      "t_chapeu": 2.657
+    },
+    {
+      "navio": 2,
+      "de": 6,
+      "para": 14,
+      "custo": 196.614,
+      "t_barra": 8.158,
+      "t_chapeu": 2.657
+    },
+    {
+      "navio": 2,
+      "de": 6,
+      "para": 15,
+      "custo": 219.212,
+      "t_barra": 9.096,
+      "t_chapeu": 2.769
+    },
+    {
+      "navio": 2,
+      "de": 7,
+      "para": "d",
+      "custo": 208.197,
+      "t_barra": 8.639,
+      "t_chapeu": 1.158
+    },
+    {
+      "navio": 2,
+      "de": 7,
+      "para": 1,
+      "custo": 231.25,
+      "t_barra": 9.595,
+      "t_chapeu": 1.379
+    },
+    {
+      "navio": 2,
+      "de": 7,
+      "para": 2,
+      "custo": 338.108,
+      "t_barra": 14.029,
+      "t_chapeu": 2.598
+    },
+    {
+      "navio": 2,
+      "de": 7,
+      "para": 3,
+      "custo": 326.742,
+      "t_barra": 13.558,
+      "t_chapeu": 2.317
+    },
+    {
+      "navio": 2,
+      "de": 7,
+      "para": 4,
+      "custo": 274.107,
+      "t_barra": 11.374,
+      "t_chapeu": 1.705
+    },
+    {
+      "navio": 2,
+      "de": 7,
+      "para": 5,
+      "custo": 414.954,
+      "t_barra": 17.218,
+      "t_chapeu": 3.229
+    },
+    {
+      "navio": 2,
+      "de": 7,
+      "para": 6,
+      "custo": 280.965,
+      "t_barra": 11.658,
+      "t_chapeu": 2.066
+    },
+    {
+      "navio": 2,
+      "de": 7,
+      "para": 8,
+      "custo": 346.694,
+      "t_barra": 14.386,
+      "t_chapeu": 2.176
+    },
+    {
+      "navio": 2,
+      "de": 7,
+      "para": 10,
+      "custo": 274.107,
+      "t_barra": 11.374,
+      "t_chapeu": 1.705
+    },
+    {
+      "navio": 2,
+      "de": 7,
+      "para": 11,
+      "custo": 315.913,
+      "t_barra": 13.108,
+      "t_chapeu": 2.267
+    },
+    {
+      "navio": 2,
+      "de": 7,
+      "para": 12,
+      "custo": 346.694,
+      "t_barra": 14.386,
+      "t_chapeu": 2.176
+    },
+    {
+      "navio": 2,
+      "de": 7,
+      "para": 13,
+      "custo": 262.559,
+      "t_barra": 10.895,
+      "t_chapeu": 1.824
+    },
+    {
+      "navio": 2,
+      "de": 7,
+      "para": 14,
+      "custo": 262.559,
+      "t_barra": 10.895,
+      "t_chapeu": 1.824
+    },
+    {
+      "navio": 2,
+      "de": 7,
+      "para": 15,
+      "custo": 274.107,
+      "t_barra": 11.374,
+      "t_chapeu": 1.705
+    },
+    {
+      "navio": 2,
+      "de": 8,
+      "para": "d",
+      "custo": 205.57,
+      "t_barra": 8.53,
+      "t_chapeu": 1.94
+    },
+    {
+      "navio": 2,
+      "de": 8,
+      "para": 1,
+      "custo": 282.95,
+      "t_barra": 11.741,
+      "t_chapeu": 3.144
+    },
+    {
+      "navio": 2,
+      "de": 8,
+      "para": 2,
+      "custo": 405.313,
+      "t_barra": 16.818,
+      "t_chapeu": 4.973
+    },
+    {
+      "navio": 2,
+      "de": 8,
+      "para": 3,
+      "custo": 276.001,
+      "t_barra": 11.452,
+      "t_chapeu": 3.063
+    },
+    {
+      "navio": 2,
+      "de": 8,
+      "para": 4,
+      "custo": 363.204,
+      "t_barra": 15.071,
+      "t_chapeu": 4.008
+    },
+    {
+      "navio": 2,
+      "de": 8,
+      "para": 5,
+      "custo": 398.265,
+      "t_barra": 16.526,
+      "t_chapeu": 4.687
+    },
+    {
+      "navio": 2,
+      "de": 8,
+      "para": 6,
+      "custo": 237.264,
+      "t_barra": 9.845,
+      "t_chapeu": 2.772
+    },
+    {
+      "navio": 2,
+      "de": 8,
+      "para": 7,
+      "custo": 276.001,
+      "t_barra": 11.452,
+      "t_chapeu": 3.063
+    },
+    {
+      "navio": 2,
+      "de": 8,
+      "para": 10,
+      "custo": 363.204,
+      "t_barra": 15.071,
+      "t_chapeu": 4.008
+    },
+    {
+      "navio": 2,
+      "de": 8,
+      "para": 11,
+      "custo": 221.622,
+      "t_barra": 9.196,
+      "t_chapeu": 2.412
+    },
+    {
+      "navio": 2,
+      "de": 8,
+      "para": 12,
+      "custo": 374.026,
+      "t_barra": 15.52,
+      "t_chapeu": 3.879
+    },
+    {
+      "navio": 2,
+      "de": 8,
+      "para": 13,
+      "custo": 340.606,
+      "t_barra": 14.133,
+      "t_chapeu": 4.127
+    },
+    {
+      "navio": 2,
+      "de": 8,
+      "para": 14,
+      "custo": 340.606,
+      "t_barra": 14.133,
+      "t_chapeu": 4.127
+    },
+    {
+      "navio": 2,
+      "de": 8,
+      "para": 15,
+      "custo": 363.204,
+      "t_barra": 15.071,
+      "t_chapeu": 4.008
+    },
+    {
+      "navio": 2,
+      "de": 10,
+      "para": "d",
+      "custo": 126.642,
+      "t_barra": 5.255,
+      "t_chapeu": 0.574
+    },
+    {
+      "navio": 2,
+      "de": 10,
+      "para": 1,
+      "custo": 149.695,
+      "t_barra": 6.211,
+      "t_chapeu": 0.819
+    },
+    {
+      "navio": 2,
+      "de": 10,
+      "para": 2,
+      "custo": 256.554,
+      "t_barra": 10.645,
+      "t_chapeu": 1.944
+    },
+    {
+      "navio": 2,
+      "de": 10,
+      "para": 3,
+      "custo": 245.187,
+      "t_barra": 10.174,
+      "t_chapeu": 1.705
+    },
+    {
+      "navio": 2,
+      "de": 10,
+      "para": 4,
+      "custo": 192.552,
+      "t_barra": 7.99,
+      "t_chapeu": 1.149
+    },
+    {
+      "navio": 2,
+      "de": 10,
+      "para": 5,
+      "custo": 333.399,
+      "t_barra": 13.834,
+      "t_chapeu": 2.563
+    },
+    {
+      "navio": 2,
+      "de": 10,
+      "para": 6,
+      "custo": 199.411,
+      "t_barra": 8.274,
+      "t_chapeu": 1.424
+    },
+    {
+      "navio": 2,
+      "de": 10,
+      "para": 7,
+      "custo": 245.187,
+      "t_barra": 10.174,
+      "t_chapeu": 1.705
+    },
+    {
+      "navio": 2,
+      "de": 10,
+      "para": 8,
+      "custo": 265.139,
+      "t_barra": 11.002,
+      "t_chapeu": 1.622
+    },
+    {
+      "navio": 2,
+      "de": 10,
+      "para": 11,
+      "custo": 234.358,
+      "t_barra": 9.724,
+      "t_chapeu": 1.648
+    },
+    {
+      "navio": 2,
+      "de": 10,
+      "para": 12,
+      "custo": 265.139,
+      "t_barra": 11.002,
+      "t_chapeu": 1.622
+    },
+    {
+      "navio": 2,
+      "de": 10,
+      "para": 13,
+      "custo": 181.004,
+      "t_barra": 7.511,
+      "t_chapeu": 1.205
+    },
+    {
+      "navio": 2,
+      "de": 10,
+      "para": 14,
+      "custo": 181.004,
+      "t_barra": 7.511,
+      "t_chapeu": 1.205
+    },
+    {
+      "navio": 2,
+      "de": 10,
+      "para": 15,
+      "custo": 192.552,
+      "t_barra": 7.99,
+      "t_chapeu": 1.149
+    },
+    {
+      "navio": 2,
+      "de": 11,
+      "para": "d",
+      "custo": 296.511,
+      "t_barra": 12.303,
+      "t_chapeu": 3.438
+    },
+    {
+      "navio": 2,
+      "de": 11,
+      "para": 1,
+      "custo": 486.662,
+      "t_barra": 20.193,
+      "t_chapeu": 6.209
+    },
+    {
+      "navio": 2,
+      "de": 11,
+      "para": 2,
+      "custo": 417.645,
+      "t_barra": 17.33,
+      "t_chapeu": 5.429
+    },
+    {
+      "navio": 2,
+      "de": 11,
+      "para": 3,
+      "custo": 572.32,
+      "t_barra": 23.748,
+      "t_chapeu": 7.502
+    },
+    {
+      "navio": 2,
+      "de": 11,
+      "para": 4,
+      "custo": 542.801,
+      "t_barra": 22.523,
+      "t_chapeu": 6.811
+    },
+    {
+      "navio": 2,
+      "de": 11,
+      "para": 5,
+      "custo": 352.658,
+      "t_barra": 14.633,
+      "t_chapeu": 4.264
+    },
+    {
+      "navio": 2,
+      "de": 11,
+      "para": 6,
+      "custo": 484.31,
+      "t_barra": 20.096,
+      "t_chapeu": 6.612
+    },
+    {
+      "navio": 2,
+      "de": 11,
+      "para": 7,
+      "custo": 572.32,
+      "t_barra": 23.748,
+      "t_chapeu": 7.502
+    },
+    {
+      "navio": 2,
+      "de": 11,
+      "para": 8,
+      "custo": 631.007,
+      "t_barra": 26.183,
+      "t_chapeu": 7.645
+    },
+    {
+      "navio": 2,
+      "de": 11,
+      "para": 10,
+      "custo": 542.801,
+      "t_barra": 22.523,
+      "t_chapeu": 6.811
+    },
+    {
+      "navio": 2,
+      "de": 11,
+      "para": 12,
+      "custo": 631.007,
+      "t_barra": 26.183,
+      "t_chapeu": 7.645
+    },
+    {
+      "navio": 2,
+      "de": 11,
+      "para": 13,
+      "custo": 452.665,
+      "t_barra": 18.783,
+      "t_chapeu": 6.012
+    },
+    {
+      "navio": 2,
+      "de": 11,
+      "para": 14,
+      "custo": 452.665,
+      "t_barra": 18.783,
+      "t_chapeu": 6.012
+    },
+    {
+      "navio": 2,
+      "de": 11,
+      "para": 15,
+      "custo": 542.801,
+      "t_barra": 22.523,
+      "t_chapeu": 6.811
+    },
+    {
+      "navio": 2,
+      "de": 12,
+      "para": "d",
+      "custo": 222.124,
+      "t_barra": 9.217,
+      "t_chapeu": 0.991
+    },
+    {
+      "navio": 2,
+      "de": 12,
+      "para": 1,
+      "custo": 245.177,
+      "t_barra": 10.173,
+      "t_chapeu": 1.362
+    },
+    {
+      "navio": 2,
+      "de": 12,
+      "para": 2,
+      "custo": 352.036,
+      "t_barra": 14.607,
+      "t_chapeu": 2.456
+    },
+    {
+      "navio": 2,
+      "de": 12,
+      "para": 3,
+      "custo": 340.669,
+      "t_barra": 14.136,
+      "t_chapeu": 2.176
+    },
+    {
+      "navio": 2,
+      "de": 12,
+      "para": 4,
+      "custo": 288.034,
+      "t_barra": 11.952,
+      "t_chapeu": 1.622
+    },
+    {
+      "navio": 2,
+      "de": 12,
+      "para": 5,
+      "custo": 428.881,
+      "t_barra": 17.796,
+      "t_chapeu": 2.976
+    },
+    {
+      "navio": 2,
+      "de": 12,
+      "para": 6,
+      "custo": 294.893,
+      "t_barra": 12.236,
+      "t_chapeu": 2.005
+    },
+    {
+      "navio": 2,
+      "de": 12,
+      "para": 7,
+      "custo": 340.669,
+      "t_barra": 14.136,
+      "t_chapeu": 2.176
+    },
+    {
+      "navio": 2,
+      "de": 12,
+      "para": 8,
+      "custo": 360.621,
+      "t_barra": 14.964,
+      "t_chapeu": 1.983
+    },
+    {
+      "navio": 2,
+      "de": 12,
+      "para": 10,
+      "custo": 288.034,
+      "t_barra": 11.952,
+      "t_chapeu": 1.622
+    },
+    {
+      "navio": 2,
+      "de": 12,
+      "para": 11,
+      "custo": 329.84,
+      "t_barra": 13.686,
+      "t_chapeu": 2.145
+    },
+    {
+      "navio": 2,
+      "de": 12,
+      "para": 13,
+      "custo": 276.486,
+      "t_barra": 11.472,
+      "t_chapeu": 1.783
+    },
+    {
+      "navio": 2,
+      "de": 12,
+      "para": 14,
+      "custo": 276.486,
+      "t_barra": 11.472,
+      "t_chapeu": 1.783
+    },
+    {
+      "navio": 2,
+      "de": 12,
+      "para": 15,
+      "custo": 288.034,
+      "t_barra": 11.952,
+      "t_chapeu": 1.622
+    },
+    {
+      "navio": 2,
+      "de": 13,
+      "para": "d",
+      "custo": 189.654,
+      "t_barra": 7.869,
+      "t_chapeu": 2.537
+    },
+    {
+      "navio": 2,
+      "de": 13,
+      "para": 1,
+      "custo": 379.805,
+      "t_barra": 15.76,
+      "t_chapeu": 5.345
+    },
+    {
+      "navio": 2,
+      "de": 13,
+      "para": 2,
+      "custo": 310.788,
+      "t_barra": 12.896,
+      "t_chapeu": 4.479
+    },
+    {
+      "navio": 2,
+      "de": 13,
+      "para": 3,
+      "custo": 465.463,
+      "t_barra": 19.314,
+      "t_chapeu": 6.681
+    },
+    {
+      "navio": 2,
+      "de": 13,
+      "para": 4,
+      "custo": 435.944,
+      "t_barra": 18.089,
+      "t_chapeu": 6.012
+    },
+    {
+      "navio": 2,
+      "de": 13,
+      "para": 5,
+      "custo": 245.801,
+      "t_barra": 10.199,
+      "t_chapeu": 3.317
+    },
+    {
+      "navio": 2,
+      "de": 13,
+      "para": 6,
+      "custo": 377.453,
+      "t_barra": 15.662,
+      "t_chapeu": 5.673
+    },
+    {
+      "navio": 2,
+      "de": 13,
+      "para": 7,
+      "custo": 465.463,
+      "t_barra": 19.314,
+      "t_chapeu": 6.681
+    },
+    {
+      "navio": 2,
+      "de": 13,
+      "para": 8,
+      "custo": 524.15,
+      "t_barra": 21.749,
+      "t_chapeu": 6.947
+    },
+    {
+      "navio": 2,
+      "de": 13,
+      "para": 10,
+      "custo": 435.944,
+      "t_barra": 18.089,
+      "t_chapeu": 6.012
+    },
+    {
+      "navio": 2,
+      "de": 13,
+      "para": 11,
+      "custo": 416.033,
+      "t_barra": 17.263,
+      "t_chapeu": 6.012
+    },
+    {
+      "navio": 2,
+      "de": 13,
+      "para": 12,
+      "custo": 524.15,
+      "t_barra": 21.749,
+      "t_chapeu": 6.947
+    },
+    {
+      "navio": 2,
+      "de": 13,
+      "para": 14,
+      "custo": 345.808,
+      "t_barra": 14.349,
+      "t_chapeu": 5.073
+    },
+    {
+      "navio": 2,
+      "de": 13,
+      "para": 15,
+      "custo": 435.944,
+      "t_barra": 18.089,
+      "t_chapeu": 6.012
+    },
+    {
+      "navio": 2,
+      "de": 14,
+      "para": "d",
+      "custo": 195.527,
+      "t_barra": 8.113,
+      "t_chapeu": 2.118
+    },
+    {
+      "navio": 2,
+      "de": 14,
+      "para": 1,
+      "custo": 272.907,
+      "t_barra": 11.324,
+      "t_chapeu": 3.16
+    },
+    {
+      "navio": 2,
+      "de": 14,
+      "para": 2,
+      "custo": 395.27,
+      "t_barra": 16.401,
+      "t_chapeu": 5.22
+    },
+    {
+      "navio": 2,
+      "de": 14,
+      "para": 3,
+      "custo": 265.957,
+      "t_barra": 11.036,
+      "t_chapeu": 3.063
+    },
+    {
+      "navio": 2,
+      "de": 14,
+      "para": 4,
+      "custo": 353.161,
+      "t_barra": 14.654,
+      "t_chapeu": 4.208
+    },
+    {
+      "navio": 2,
+      "de": 14,
+      "para": 5,
+      "custo": 388.222,
+      "t_barra": 16.109,
+      "t_chapeu": 4.936
+    },
+    {
+      "navio": 2,
+      "de": 14,
+      "para": 6,
+      "custo": 227.221,
+      "t_barra": 9.428,
+      "t_chapeu": 2.657
+    },
+    {
+      "navio": 2,
+      "de": 14,
+      "para": 7,
+      "custo": 265.957,
+      "t_barra": 11.036,
+      "t_chapeu": 3.063
+    },
+    {
+      "navio": 2,
+      "de": 14,
+      "para": 8,
+      "custo": 363.983,
+      "t_barra": 15.103,
+      "t_chapeu": 4.127
+    },
+    {
+      "navio": 2,
+      "de": 14,
+      "para": 10,
+      "custo": 353.161,
+      "t_barra": 14.654,
+      "t_chapeu": 4.208
+    },
+    {
+      "navio": 2,
+      "de": 14,
+      "para": 11,
+      "custo": 211.578,
+      "t_barra": 8.779,
+      "t_chapeu": 2.29
+    },
+    {
+      "navio": 2,
+      "de": 14,
+      "para": 12,
+      "custo": 363.983,
+      "t_barra": 15.103,
+      "t_chapeu": 4.127
+    },
+    {
+      "navio": 2,
+      "de": 14,
+      "para": 13,
+      "custo": 330.562,
+      "t_barra": 13.716,
+      "t_chapeu": 4.236
+    },
+    {
+      "navio": 2,
+      "de": 14,
+      "para": 15,
+      "custo": 353.161,
+      "t_barra": 14.654,
+      "t_chapeu": 4.208
+    },
+    {
+      "navio": 2,
+      "de": 15,
+      "para": "d",
+      "custo": 214.661,
+      "t_barra": 8.907,
+      "t_chapeu": 1.991
+    },
+    {
+      "navio": 2,
+      "de": 15,
+      "para": 1,
+      "custo": 336.303,
+      "t_barra": 13.954,
+      "t_chapeu": 3.884
+    },
+    {
+      "navio": 2,
+      "de": 15,
+      "para": 2,
+      "custo": 231.458,
+      "t_barra": 9.604,
+      "t_chapeu": 2.422
+    },
+    {
+      "navio": 2,
+      "de": 15,
+      "para": 3,
+      "custo": 441.369,
+      "t_barra": 18.314,
+      "t_chapeu": 5.471
+    },
+    {
+      "navio": 2,
+      "de": 15,
+      "para": 4,
+      "custo": 351.96,
+      "t_barra": 14.604,
+      "t_chapeu": 3.982
+    },
+    {
+      "navio": 2,
+      "de": 15,
+      "para": 5,
+      "custo": 378.027,
+      "t_barra": 15.686,
+      "t_chapeu": 4.566
+    },
+    {
+      "navio": 2,
+      "de": 15,
+      "para": 6,
+      "custo": 367.295,
+      "t_barra": 15.24,
+      "t_chapeu": 4.656
+    },
+    {
+      "navio": 2,
+      "de": 15,
+      "para": 7,
+      "custo": 441.369,
+      "t_barra": 18.314,
+      "t_chapeu": 5.471
+    },
+    {
+      "navio": 2,
+      "de": 15,
+      "para": 8,
+      "custo": 458.802,
+      "t_barra": 19.037,
+      "t_chapeu": 5.235
+    },
+    {
+      "navio": 2,
+      "de": 15,
+      "para": 10,
+      "custo": 351.96,
+      "t_barra": 14.604,
+      "t_chapeu": 3.982
+    },
+    {
+      "navio": 2,
+      "de": 15,
+      "para": 11,
+      "custo": 412.713,
+      "t_barra": 17.125,
+      "t_chapeu": 5.124
+    },
+    {
+      "navio": 2,
+      "de": 15,
+      "para": 12,
+      "custo": 458.802,
+      "t_barra": 19.037,
+      "t_chapeu": 5.235
+    },
+    {
+      "navio": 2,
+      "de": 15,
+      "para": 13,
+      "custo": 273.47,
+      "t_barra": 11.347,
+      "t_chapeu": 3.1
+    },
+    {
+      "navio": 2,
+      "de": 15,
+      "para": 14,
+      "custo": 273.47,
+      "t_barra": 11.347,
+      "t_chapeu": 3.1
+    }
+  ],
+  "plano_referencia": [
+    {
+      "navio": 0,
+      "sequencia": [
+        15,
+        8,
+        2,
+        10
+      ]
+    },
+    {
+      "navio": 1,
+      "sequencia": [
+        9,
+        5,
+        12,
+        3,
+        14,
+        1
+      ]
+    },
+    {
+      "navio": 2,
+      "sequencia": [
+        7,
+        6,
+        13,
+        11,
+        4
+      ]
+    }
+  ]
+}
